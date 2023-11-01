@@ -1,0 +1,2082 @@
+|I|: ======= SELF HEADER =========
+magic ..............: 0x1D3D154F
+version ............: 0
+mode ...............: 0x01
+endian .............: 1
+attributes .........: 0x12
+category ...........: 0x01
+program_type........: 0x01
+padding1 ...........: 0x0000
+header size ........: 1152
+meta size ..........: 1136
+file size ..........: 5809336
+padding2 ...........: 0x00000000
+segment count ......: 10
+unknown 1A .........: 0x0022
+padding3 ...........: 0x00000000
+|I|: ====== SEGMENT HEADER 0 ========
+flags ............: 0x0000000000110004
+file offset ......: 0x00000000000008f0
+file size ........: 8832
+memory size ......: 8832
+|I|: ====== SEGMENT HEADER 1 ========
+flags ............: 0x0000000000002804
+file offset ......: 0x0000000000002b70
+file size ........: 4517588
+memory size ......: 4517588
+|I|: ====== SEGMENT HEADER 2 ========
+flags ............: 0x0000000000310004
+file offset ......: 0x0000000000451a50
+file size ........: 736
+memory size ......: 736
+|I|: ====== SEGMENT HEADER 3 ========
+flags ............: 0x0000000000102804
+file offset ......: 0x0000000000451d30
+file size ........: 369736
+memory size ......: 369736
+|I|: ====== SEGMENT HEADER 4 ========
+flags ............: 0x0000000000510004
+file offset ......: 0x00000000004ac180
+file size ........: 1280
+memory size ......: 1280
+|I|: ====== SEGMENT HEADER 5 ========
+flags ............: 0x0000000000202804
+file offset ......: 0x00000000004ac680
+file size ........: 653344
+memory size ......: 653344
+|I|: ====== SEGMENT HEADER 6 ========
+flags ............: 0x0000000000710004
+file offset ......: 0x000000000054bea0
+file size ........: 512
+memory size ......: 512
+|I|: ====== SEGMENT HEADER 7 ========
+flags ............: 0x0000000000802804
+file offset ......: 0x000000000054c0a0
+file size ........: 254872
+memory size ......: 254872
+|I|: ====== SEGMENT HEADER 8 ========
+flags ............: 0x0000000000910004
+file offset ......: 0x000000000058a440
+file size ........: 32
+memory size ......: 32
+|I|: ====== SEGMENT HEADER 9 ========
+flags ............: 0x0000000000902804
+file offset ......: 0x000000000058a460
+file size ........: 88
+memory size ......: 88
+|I|: ======= Elf header ===========
+ident ............: 0x7F454C46
+ident class.......: ELF_CLASS_64
+ident data .......: ELF_DATA_2LSB
+ident version.....: ELF_VERSION_CURRENT
+ident osabi  .....: ELF_OSABI_FREEBSD
+ident abiversion..: ELF_ABI_VERSION_AMDGPU_HSA_V2
+ident UNK ........: 0x000000000000
+type  ............: ET_SCE_DYNEXEC
+machine ..........: EM_X86_64
+version ..........: EV_CURRENT
+entry ............: 0x00000000002dda30
+phoff ............: 0x0000000000000040
+shoff ............: 0x0000000000000000
+flags ............: 0x00000000
+ehsize ...........: 64
+phentsize ........: 56
+phnum ............: 11
+shentsize ........: 0
+shnum ............: 0
+shstrndx .........: 0
+|I|: Program headers:
+|I|: ====== PROGRAM HEADER 0 ========
+p_type ....: Loadable
+p_flags ...: 0x00000005
+p_offset ..: 0x0000000000004000
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x000000000044eed4
+p_memsz ...: 0x000000000044eed4
+p_align ...: 0x0000000000004000
+|I|: ====== PROGRAM HEADER 1 ========
+p_type ....: SCE Read-Only After Relocation
+p_flags ...: 0x00000004
+p_offset ..: 0x0000000000454000
+p_vaddr ...: 0x0000000000450000
+p_paddr ...: 0x0000000000450000
+p_filesz ..: 0x000000000005a448
+p_memsz ...: 0x000000000005c000
+p_align ...: 0x0000000000004000
+|I|: ====== PROGRAM HEADER 2 ========
+p_type ....: Loadable
+p_flags ...: 0x00000006
+p_offset ..: 0x00000000004b0000
+p_vaddr ...: 0x00000000004ac000
+p_paddr ...: 0x00000000004ac000
+p_filesz ..: 0x000000000009f820
+p_memsz ...: 0x00000000003ad260
+p_align ...: 0x0000000000004000
+|I|: ====== PROGRAM HEADER 3 ========
+p_type ....: SCE Processor Parameters
+p_flags ...: 0x00000004
+p_offset ..: 0x00000000004b0000
+p_vaddr ...: 0x00000000004ac000
+p_paddr ...: 0x00000000004ac000
+p_filesz ..: 0x0000000000000050
+p_memsz ...: 0x0000000000000050
+p_align ...: 0x0000000000000008
+|I|: ====== PROGRAM HEADER 4 ========
+p_type ....: Dynamic
+p_flags ...: 0x00000006
+p_offset ..: 0x000000000058ce68
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x0000000000000d50
+p_memsz ...: 0x0000000000000d50
+p_align ...: 0x0000000000000008
+|I|: ====== PROGRAM HEADER 5 ========
+p_type ....: Interpreter Path
+p_flags ...: 0x00000004
+p_offset ..: 0x0000000000004000
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x0000000000000015
+p_memsz ...: 0x0000000000000015
+p_align ...: 0x0000000000000001
+|I|: ====== PROGRAM HEADER 6 ========
+p_type ....: Thread-Local Storage
+p_flags ...: 0x00000004
+p_offset ..: 0x0000000000000000
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x0000000000000000
+p_memsz ...: 0x0000000000000000
+p_align ...: 0x0000000000000001
+|I|: ====== PROGRAM HEADER 7 ========
+p_type ....: GNU Entry Header Frame
+p_flags ...: 0x00000004
+p_offset ..: 0x000000000043aa60
+p_vaddr ...: 0x0000000000436a60
+p_paddr ...: 0x0000000000436a60
+p_filesz ..: 0x0000000000018474
+p_memsz ...: 0x0000000000018474
+p_align ...: 0x0000000000000004
+|I|: ====== PROGRAM HEADER 8 ========
+p_type ....: SCE Dynamic Library Data
+p_flags ...: 0x00000004
+p_offset ..: 0x000000000054f820
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x000000000003e398
+p_memsz ...: 0x0000000000000000
+p_align ...: 0x0000000000000010
+|I|: ====== PROGRAM HEADER 9 ========
+p_type ....: SCE Comment
+p_flags ...: 0x00000000
+p_offset ..: 0x000000000058dbc0
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x0000000000000058
+p_memsz ...: 0x0000000000000000
+p_align ...: 0x0000000000000010
+|I|: ====== PROGRAM HEADER 10 ========
+p_type ....: SCE Library Version
+p_flags ...: 0x00000000
+p_offset ..: 0x000000000058dc18
+p_vaddr ...: 0x0000000000000000
+p_paddr ...: 0x0000000000000000
+p_filesz ..: 0x000000000000099c
+p_memsz ...: 0x0000000000000000
+p_align ...: 0x0000000000000010
+|I|: SELF info:
+|I|: auth id ............: 0x3100000000000001
+|I|: program type .......: PT_FAKE
+|I|: app version ........: 0x0000000000000000
+|I|: fw version .........: 0x0000000000000000
+|I|: digest..............: 0x0B356FDBD6B949092B1398A58E7297EC9499319CC133662E89152A9BDCE86F61
+|I|: ====Load Module to Memory ========
+|I|: base_virtual_addr ......: 0x0000000900000000
+|I|: base_size ..............: 0x000000000085c000
+|I|: aligned_base_size ......: 0x000000000085d000
+|I|: program header = [0] type = Loadable
+|I|: segment_addr ..........: 0x0000000900000000
+|I|: segment_file_size .....: 4517588
+|I|: segment_memory_size ...: 4521984
+|I|: segment_mode ..........: (R_X)
+|I|: program header = [1] type = SCE Read-Only After Relocation
+|I|: segment_addr ..........: 0x0000000900450000
+|I|: segment_file_size .....: 369736
+|I|: segment_memory_size ...: 376832
+|I|: segment_mode ..........: (R__)
+|I|: program header = [2] type = Loadable
+|I|: segment_addr ..........: 0x00000009004ac000
+|I|: segment_file_size .....: 653344
+|I|: segment_memory_size ...: 3866624
+|I|: segment_mode ..........: (RW_)
+|E|: Unimplemented type SCE Processor Parameters
+|E|: Unimplemented type Interpreter Path
+|E|: Unimplemented type Thread-Local Storage
+|E|: Unimplemented type GNU Entry Header Frame
+|E|: Unimplemented type SCE Comment
+|E|: Unimplemented type SCE Library Version
+|I|: program entry addr ..........: 0x00000009002dda30
+|I|: unsupported dynamic tag ..........: 0x0000000061000017
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001b000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001e000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001d000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0030000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x000d000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0021000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0004000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x000a000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0015000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0010000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0017000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x000e000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0008000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0009000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0022000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0023000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0011000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0014000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0012000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0027000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0024000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0013000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0025000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0026000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0028000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0029000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x002a000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x002b000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0016000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0036000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x002c000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0018000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0019000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0020000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x002f000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x000b000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001c000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0038000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0037000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0007000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001f000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x001a000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x002e000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0032000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x000c000000000009
+|I|: unsupported DT_SCE_IMPORT_LIB_ATTR value = ..........: 0x0031000000000009
+|I|: unsupported DT_SCE_FINGERPRINT value = ..........: 0x0000000000000000
+|I|: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+|I|: name Jh6WbHhnI68 function sceAudioInClose library libSceAudioIn module libSceAudioIn bind 1 type 2 visibility 0
+|I|: name LozEOU8+anM function sceAudioInInput library libSceAudioIn module libSceAudioIn bind 1 type 2 visibility 0
+|I|: name 5NE8Sjc7VC8 function sceAudioInOpen library libSceAudioIn module libSceAudioIn bind 1 type 2 visibility 0
+|I|: name s1--uE9mBFw function sceAudioOutClose library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name JfEPXVxhFqA function sceAudioOutInit library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name ekNvsT22rsY function sceAudioOutOpen library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name QOQtbeDqsT4 function sceAudioOutOutput library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name w3PdaSTSwGE function sceAudioOutOutputs library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name b+uAV89IlxE function sceAudioOutSetVolume library libSceAudioOut module libSceAudioOut bind 1 type 2 visibility 0
+|I|: name KMcEa+rHsIo function sceAvPlayerAddSource library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name NkJwDzKmIlw function sceAvPlayerClose library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name ODJK2sn9w4A function sceAvPlayerEnableStream library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name Wnp1OVcrZgk function sceAvPlayerGetAudioData library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name d8FcbzfAdQw function sceAvPlayerGetStreamInfo library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name JdksQu8pNdQ function sceAvPlayerGetVideoDataEx library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name aS66RI0gGgo function sceAvPlayerInit library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name UbQoYawOsfY function sceAvPlayerIsActive library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name HD1YKVU26-M function sceAvPlayerPostInit library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name ET4Gr-Uu07s function sceAvPlayerStart library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name ZC17w3vB5Lo function sceAvPlayerStop library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name hdTyRzCXQeQ function sceAvPlayerStreamCount library libSceAvPlayer module libSceAvPlayer bind 1 type 2 visibility 0
+|I|: name uoUpLGNkygk function sceCommonDialogInitialize library libSceCommonDialog module libSceCommonDialog bind 1 type 2 visibility 0
+|I|: name I88KChlynSs function sceErrorDialogInitialize library libSceErrorDialog module libSceErrorDialog bind 1 type 2 visibility 0
+|I|: name M2ZF-ClLhgY function sceErrorDialogOpen library libSceErrorDialog module libSceErrorDialog bind 1 type 2 visibility 0
+|I|: name 9XAxK2PMwk8 function sceErrorDialogTerminate library libSceErrorDialog module libSceErrorDialog bind 1 type 2 visibility 0
+|I|: name WWiGuh9XfgQ function sceErrorDialogUpdateStatus library libSceErrorDialog module libSceErrorDialog bind 1 type 2 visibility 0
+|I|: name b0xyllnVY-I function sceGnmAddEqEvent library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name +AFvOEXrKJk function sceGnmSetEmbeddedVsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name b08AgtPlHPg function sceGnmAreSubmitsAllowed library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ihxrbsoSKWc function sceGnmBeginWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name FUHG8sQ3R58 function sceGnmSetEsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ffrNQOshows function sceGnmComputeWaitOnAddress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name EJapNl2+pgU function sceGnmComputeWaitSemaphore library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 5udAm+6boVg function sceGnmCreateWorkloadStream library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name qpGITzPE+Zc function sceGnmDebugHardwareStatus library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name jtkqXpAOY6w function sceGnmSetGsRingSizes library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name UJwNuMBcUAk function sceGnmSetGsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name VJNjFtqiF5w function sceGnmSetHsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 5uFKckiJYRM function sceGnmSetPsShader350 library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name q-qhDxP67Hg function sceGnmSetResourceRegistrationUserMemory library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name K3BKBBYKUSE function sceGnmSetResourceUserData library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name cFCp0NX8wf0 function sceGnmSetVgtControl library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name gAhCn6UiU4Y function sceGnmSetVsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name XiyzNZ9J4nQ function sceGnmSetWaveLimitMultipliers library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name +xuDhxlWRPg function sceGnmSetupMipStatsReport library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name zwY0YV91TTI function sceGnmSubmitCommandBuffers library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name xbxNatawohc function sceGnmSubmitAndFlipCommandBuffers library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Ga6r7H6Y0RI function sceGnmSubmitAndFlipCommandBuffersForWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name f33OrruQYbM function sceRazorIsLoaded library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name jRcI8VcgTz4 function sceGnmSubmitCommandBuffersForWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name PVT+fuoS9gU function sceGnmDeleteEqEvent library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name yvZ73uQUqrk function sceGnmSubmitDone library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name UtObDRQiGbs function sceGnmDestroyWorkloadStream library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name bX5IbRvECXk function sceGnmDingDong library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name byXlqupd8cE function sceGnmDingDongForWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name HHo1BAljZO8 function sceGnmDisableMipStatsReport library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 0BzLGljcwBo function sceGnmDispatchDirect library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Z43vKp5k7r0 function sceGnmDispatchIndirect library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name wED4ZXCFJT0 function sceGnmDispatchIndirectOnMec library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name nF6bFRUBRAU function sceGnmDispatchInitDefaultHardwareState library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name HlTPoZ-oY7Y function sceGnmDrawIndex library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name GGsn7jMTxw4 function sceGnmDrawIndexAuto library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ED9-Fjr8Ta4 function sceGnmDrawIndexIndirect library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name thbPcG7E7qk function sceGnmDrawIndexIndirectCountMulti library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name jHdPvIzlpKc function sceGnmDrawIndexMultiInstanced library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name oYM+YzfCm2Y function sceGnmDrawIndexOffset library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 4v+otIIdjqg function sceGnmDrawIndirect library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name cUCo8OvArrw function sceGnmDrawIndirectCountMulti library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name yb2cRhagD1I function sceGnmDrawInitDefaultHardwareState350 library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name im2ZuItabu4 function sceGnmDrawInitToDefaultContextState400 library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name stDSYW2SBVM function sceGnmDrawOpaqueAuto library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name TLV4mswiZ4A function sceGnmDriverCaptureInProgress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ArSg-TGinhk function sceGnmUnmapComputeQueue library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name yhFCnaz5daw function sceGnmUnregisterAllResourcesForOwner library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name fhKwCVVj9nk function sceGnmUnregisterOwnerAndResources library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name k8EXkhIP+lM function sceGnmUnregisterResource library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name nLM2i2+65hA function sceGnmUpdateGsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name GNlx+y7xPdE function sceGnmUpdateHsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name R6z1xM3pW-w function sceGnmDriverTraceInProgress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name d88anrgNoKY function sceGnmDriverTriggerCapture library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name mLVL7N7BVBg function sceGnmUpdatePsShader350 library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Fa3x75OOLRA function sceGnmEndWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 4Mv9OXypBG8 function sceGnmFindResourcesPublic library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name iBt3Oe00Kvc function sceGnmFlushGarlic library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name V31V01UiScY function sceGnmUpdateVsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name SXw4dZEkgpA function sceGnmValidateDisableDiagnostics library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name BgM3t3LvcNk function sceGnmValidateDisableDiagnostics2 library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name qGP74T5OWJc function sceGnmValidateDispatchCommandBuffers library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name UoYY0DWMC0U function sceGnmGetEqEventType library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name H7-fgvEutM0 function sceGnmGetEqTimeStamp library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name oL4hGI1PMpw function sceGnmGetGpuBlockStatus library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name tZCSL5ulnB4 function sceGnmGetGpuInfoStatus library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name iFirFzgYsvw function sceGnmGetLastWaitedAddress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name KnldROUkWJY function sceGnmGetNumTcaUnits library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name FFVZcCu3zWU function sceGnmGetOffChipTessellationBufferSize library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name QJjPjlmPAL0 function sceGnmGetOwnerName library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name dewXw5roLs0 function sceGnmGetPhysicalCounterFromVirtualized library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name fzJdEihTFV4 function sceGnmGetProtectionFaultTimeStamp library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 4PKnYXOhcx4 function sceGnmGetResourceBaseAddressAndSizeInBytes library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name O0S96YnD04U function sceGnmGetResourceName library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name UBv7FkVfzcQ function sceGnmGetResourceShaderGuid library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name bdqdvIkLPIU function sceGnmGetResourceType library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name UoBuWAhKk7U function sceGnmGetResourceUserData library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name nEyFbYUloIM function sceGnmGetShaderProgramBaseAddress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name k7iGTvDQPLQ function sceGnmGetShaderStatus library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ln33zjBrfjk function sceGnmGetTheTessellationFactorRingBufferBaseAddress library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name hsZPf1lON7E function sceGnmValidateDrawCommandBuffers library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name RX7XCNSaL6I function sceGnmValidateGetDiagnosticInfo library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 5SHGNwLXBV4 function sceGnmValidateGetDiagnostics library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name NfvOrNzy6sk function sceGnmInsertDingDongMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 7qZVNgEu+SY function sceGnmInsertPopMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name aPIZJTXC+cU function sceGnmInsertPushColorMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name W1Etj-jlW7Y function sceGnmInsertPushMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name aj3L-iaFmyk function sceGnmInsertSetColorMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name jiItzS6+22g function sceGnmInsertSetMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name URDgJcXhQOs function sceGnmInsertThreadTraceMarker library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 1qXLHIpROPE function sceGnmInsertWaitFlipDone library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name HzMN7ANqYEc function sceGnmValidateGetVersion library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name jg33rEKLfVs function sceGnmIsUserPaEnabled library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 26PM5Mzl8zc function sceGnmLogicalCuIndexToPhysicalCuIndex library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name RU74kek-N0c function sceGnmLogicalCuMaskToPhysicalCuMask library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Kl0Z3LH07QI function sceGnmLogicalTcaUnitToPhysical library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 29oKvKXzEZo function sceGnmMapComputeQueue library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name A+uGq+3KFtQ function sceGnmMapComputeQueueWithPriority library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name rTIV11nMQuM function sceGnmValidateOnSubmitEnabled library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name MBMa6EFu4Ko function sceGnmValidateResetState library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Q7t4VEYLafI function sceGnmValidationRegisterMemoryCheckCallback library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name u9YKpRRHe-M function sceRazorCaptureImmediate library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name vckdzbQ46SI function sceGnmSetLsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 6IMbpR7nTzA function sceGnmQueryResourceRegistrationUserMemoryRequirements library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 9Mv61HaMhfA function sceGnmRegisterGdsResource library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name ZFqKFl23aMc function sceGnmRegisterOwner library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name nvEwfYAImTs function sceGnmRegisterResource library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name gObODli-OH8 function sceGnmRequestFlipAndSubmitDone library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name 6YRHhh5mHCs function sceGnmRequestFlipAndSubmitDoneForWorkload library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name f85orjx7qts function sceGnmRequestMipStatsReportAndReset library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name MYRtYhojKdA function sceGnmResetVgtControl library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name Kx-h-nWQJ8A function sceGnmSetCsShaderWithModifier library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name X9Omw9dwv5M function sceGnmSetEmbeddedPsShader library libSceGnmDriver module libSceGnmDriver bind 1 type 2 visibility 0
+|I|: name EY28T2bkN7k function sceHttpAddRequestHeader library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name qgxDBjorUxs function sceHttpCreateConnectionWithURL library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 6381dWF+xsQ function sceHttpCreateEpoll library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name Cnp77podkCU function sceHttpCreateRequestWithURL2 library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 0gYjPTR-6cY function sceHttpCreateTemplate library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name P6A3ytpsiYc function sceHttpDeleteConnection library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name qe7oZ+v4PWA function sceHttpDeleteRequest library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 4I8vEpuEhZ8 function sceHttpDeleteTemplate library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name wYhXVfS2Et4 function sceHttpDestroyEpoll library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name aCYPMSUIaP8 function sceHttpGetAllResponseHeaders library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name yuO2H2Uvnos function sceHttpGetResponseContentLength library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 0a2TBNfE3BU function sceHttpGetStatusCode library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name A9cVMUtEp4Y function sceHttpInit library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name P5pdoykPYTk function sceHttpReadData library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 1e2BNwI-XzE function sceHttpSendRequest library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name -xm7kZQNpHI function sceHttpSetEpoll library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name s2-NPIvz+iA function sceHttpSetNonblock library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name Ik-KpLTlf7Q function sceHttpTerm library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name 59tL1AQBb8U function sceHttpUnsetEpoll library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name qISjDHrxONc function sceHttpWaitRequest library libSceHttp module libSceHttp bind 1 type 2 visibility 0
+|I|: name oBmw4xrmfKs function sceImeDialogAbort library libSceImeDialog module libSceImeDialog bind 1 type 2 visibility 0
+|I|: name x01jxu+vxlc function sceImeDialogGetResult library libSceImeDialog module libSceImeDialog bind 1 type 2 visibility 0
+|I|: name IADmD4tScBY function sceImeDialogGetStatus library libSceImeDialog module libSceImeDialog bind 1 type 2 visibility 0
+|I|: name NUeBrN7hzf0 function sceImeDialogInit library libSceImeDialog module libSceImeDialog bind 1 type 2 visibility 0
+|I|: name gyTyVn+bXMw function sceImeDialogTerm library libSceImeDialog module libSceImeDialog bind 1 type 2 visibility 0
+|I|: name WuuUhuKOxwQ function sceInvitationDialogGetResultA library libSceInvitationDialog module libSceInvitationDialog bind 1 type 2 visibility 0
+|I|: name XvA5KS56wcs function sceInvitationDialogInitialize library libSceInvitationDialog module libSceInvitationDialog bind 1 type 2 visibility 0
+|I|: name sAxbHhAWMXM function sceInvitationDialogOpenA library libSceInvitationDialog module libSceInvitationDialog bind 1 type 2 visibility 0
+|I|: name B6HVJtDYxEE function sceInvitationDialogTerminate library libSceInvitationDialog module libSceInvitationDialog bind 1 type 2 visibility 0
+|I|: name 9+g9iOq+7kg function sceInvitationDialogUpdateStatus library libSceInvitationDialog module libSceInvitationDialog bind 1 type 2 visibility 0
+|I|: name HTrcDKlFKuM function sceMsgDialogClose library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name Lr8ovHH9l6A function sceMsgDialogGetResult library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name lDqxaY1UbEo function sceMsgDialogInitialize library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name b06Hh0DPEaE function sceMsgDialogOpen library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name ePw-kqZmelo function sceMsgDialogTerminate library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name 6fIC3XKt2k0 function sceMsgDialogUpdateStatus library libSceMsgDialog module libSceMsgDialog bind 1 type 2 visibility 0
+|I|: name Nlev7Lg8k3A function sceNetInit library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name dgJBaeJnGpo function sceNetPoolCreate library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name K7RlrTkI-mw function sceNetPoolDestroy library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name cTGkc6-TBlI function sceNetTerm library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name ZVw46bsasAk function sceNetEpollControl library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name drjIbDbA7UQ function sceNetEpollWait library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name HQOwnfMGipQ function sceNetErrnoLoc library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name TCkRD0DWNLg function sceNetGetpeername library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name PIWqhn9oSxc function sceNetAccept library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name bErx49PgxyY function sceNetBind library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name OXXX4mUk3uk function sceNetConnect library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name SF47kB2MNTo function sceNetEpollCreate library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name hLuXdjHnhiI function sceNetGetSockInfo library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name xphrZusl78E function sceNetGetsockopt library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name iWQWrwiSt8A function sceNetHtons library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 9vA2aW+CHuA function sceNetInetNtop library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 8Kcp5d-q1Uo function sceNetInetPton library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name kOj1HiAGE54 function sceNetListen library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 9wO9XrMsNhc function sceNetRecv library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 304ooNZxWDY function sceNetRecvfrom library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name C4UgDHHPvdw function sceNetResolverCreate library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name kJlYH5uMAWI function sceNetResolverDestroy library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name Nd91WaWmG2w function sceNetResolverStartNtoa library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name beRjXBn-z+o function sceNetSend library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name gvD1greCu0A function sceNetSendto library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 2mKX2Spso7I function sceNetSetsockopt library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name TSM6whtekok function sceNetShutdown library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name Q4qBuN-c0ZM function sceNetSocket library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name zJGf8xjFnQE function sceNetSocketAbort library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name 45ggEzakPJQ function sceNetSocketClose library libSceNet module libSceNet bind 1 type 2 visibility 0
+|I|: name NU3ckGHMFXo function sceNpCommerceDialogClose library libSceNpCommerce module libSceNpCommerce bind 1 type 2 visibility 0
+|I|: name r42bWcQbtZY function sceNpCommerceDialogGetResult library libSceNpCommerce module libSceNpCommerce bind 1 type 2 visibility 0
+|I|: name 0aR2aWmQal4 function sceNpCommerceDialogInitialize library libSceNpCommerce module libSceNpCommerce bind 1 type 2 visibility 0
+|I|: name DfSCDRA3EjY function sceNpCommerceDialogOpen library libSceNpCommerce module libSceNpCommerce bind 1 type 2 visibility 0
+|I|: name LR5cwFMMCVE function sceNpCommerceDialogUpdateStatus library libSceNpCommerce module libSceNpCommerce bind 1 type 2 visibility 0
+|I|: name rbknaUjpqWo function sceNpGetAccountIdA library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name XDncXQIJUSk function sceNpGetOnlineId library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name 8Z2Jc5GvGDI function sceNpCheckNpAvailabilityA library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name r6MyYJkryz8 function sceNpCheckPlus library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name eiqMCt9UshI function sceNpCreateAsyncRequest library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name S7QTn72PrDw function sceNpDeleteRequest library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name p-o74CnoNzY function sceNpGetNpId library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name eQH7nWPcAgc function sceNpGetState library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name Gaxrp3EWY-M function sceNpNotifyPlusFeature library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name uqcPJLWL08M function sceNpPollAsync library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name A2CQ3kgSopQ function sceNpSetContentRestriction library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name Ec63y59l9tw function sceNpSetNpTitleId library libSceNpManager module libSceNpManager bind 1 type 2 visibility 0
+|I|: name 7vjNQ6Z1op0 function sceNpMatching2ContextStart library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name -f6M4caNe8k function sceNpMatching2ContextStop library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name ajvzc8e2upo function sceNpMatching2CreateContextA library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name V6KSpKv9XJE function sceNpMatching2CreateJoinRoomA library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name Nz-ZE7ur32I function sceNpMatching2DestroyContext library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name dMQ+xGvTdqM function sceNpMatching2GetRoomMemberDataExternalList library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name LhCPctIICxQ function sceNpMatching2GetServerId library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name rJNPJqDCpiI function sceNpMatching2GetWorldInfoList library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name 10t3e5+JPnU function sceNpMatching2Initialize library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name gQ6cUriNpgs function sceNpMatching2JoinRoomA library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name BD6kfx442Do function sceNpMatching2LeaveRoom library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name fQQfP87I7hs function sceNpMatching2RegisterContextCallback library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name p+2EnxmaAMM function sceNpMatching2RegisterRoomEventCallback library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name 0UMeWRGnZKA function sceNpMatching2RegisterSignalingCallback library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name VqZX7POg2Mk function sceNpMatching2SearchRoom library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name q7GK98-nYSE function sceNpMatching2SetRoomDataExternal library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name S9D8JSYIrjE function sceNpMatching2SetRoomDataInternal library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name nNeC3F8-g+4 function sceNpMatching2SignalingGetConnectionInfoA library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name tHD5FPFXtu4 function sceNpMatching2SignalingGetConnectionStatus library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name wUmwXZHaX1w function sceNpMatching2SignalingGetPingInfo library libSceNpMatching2 module libSceNpMatching2 bind 1 type 2 visibility 0
+|I|: name GWnWQNXZH5M function sceNpScoreCreateNpTitleCtxA library libSceNpScore module libSceNpScore bind 1 type 2 visibility 0
+|I|: name gW8qyjYrUbk function sceNpScoreCreateRequest library libSceNpScore module libSceNpScore bind 1 type 2 visibility 0
+|I|: name dK8-SgYf6r4 function sceNpScoreDeleteRequest library libSceNpScore module libSceNpScore bind 1 type 2 visibility 0
+|I|: name K9tlODTQx3c function sceNpScoreGetRankingByAccountId library libSceNpScore module libSceNpScore bind 1 type 2 visibility 0
+|I|: name MA9vSt7JImY function sceNpScoreGetRankingByRangeA library libSceNpScore module libSceNpScore bind 1 type 2 visibility 0
+|I|: name 5-UHpg8s00I function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ngZMooSt-ys function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name JRL5HQ04IFM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ALj-caXHUZI function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ZzkCpCDDeIE function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name -o8Vy6K2H-g function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 6hUKoSNxGHM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name leypPkXymaA function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 2YcKd7nB+Ag function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name hqynGeY-OR8 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 8MqwVJd-cSY function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ApblR7nulzY function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name kRbUAm1Du+g function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name mIinAn8TvdY function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 1yzPk-TN1+0 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name b9IYAN2rhlo function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name VFvyuEBlp+A function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name lgACxYBCgFw function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name zGaiJod9Vic function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name tlpXm5KLgqk function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 30Zxe35LtBg function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name cmvr0mOCX2Q function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name AGYntkLfXCc function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name GXbL5lvDALs function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name SX9IOde7tLo function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name omVg1AdJGYQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name iaGdIXzjp80 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 9NwVTF2r-To function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ir5wHm8t4yQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name d2yn9y60yEU function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name xYN7D+8y-KA function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name X17DF4uF7Co function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name s+0pSDvfJkk function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 9GMinneGvk0 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name va+mHDV+Lwo function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name X8uNKyVpR1I function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name YlpnKm99h3Q function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 31Bh5lfPPXs function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 6esKXS17kNM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name LLdnqVnnNBQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name IcuECtP3L0E function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name vbh-MWtjMh4 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name -bAjEe-hdCg function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name s0u30pOfi9Q function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name vycUuYWwilI function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name q-uIM1VNvwg function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name Kv8XXD7X7XQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name o2PhQ4mUZuE function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 0+LtsbPVpt8 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name kyyI+gLshKQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name -p97-goGFC4 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 8b2o8RfK620 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name owxYieafJSM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 9G7fpmodu1Q function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name hks1Z-mbivM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name FbtukaCjFCM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name cBzNNtt2-GU function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 3uIwm8ckbVc function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 9IKooW79-AM function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name qc4pnagDrkQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name iJEDK60-2p4 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name evQPB2JiOTo function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name i51FQZY--Sw function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name F8luFJ2FEPY function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name IGc6FTBp6jE function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 6ClJwE3AiGs function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 7ONbnvN2brw function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name Foc0YVGG9s8 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name 6ZKsmn9DS0Y function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name +9j+VbOE+xQ function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name ZpzDxqY5Zcw function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name mXJwKDDXQ3s function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name gpSEllb2338 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name jmiUcZi+ONI function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name NhyOMK5FxAk function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name zuftnZ9BD9w function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name XaKJqdhjD88 function UNK library libSceNpToolkit2 module libSceNpToolkit2 bind 1 type 2 visibility 0
+|I|: name XbkjbobZlCY function sceNpTrophyCreateContext library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name q7U6tEAQf7c function sceNpTrophyCreateHandle library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name GNcF4oidY0Y function sceNpTrophyDestroyHandle library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name LHuSmO3SLd8 function sceNpTrophyGetTrophyUnlockState library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name TJCAxto9SEU function sceNpTrophyRegisterContext library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name 28xmRUFao68 function sceNpTrophyUnlockTrophy library libSceNpTrophy module libSceNpTrophy bind 1 type 2 visibility 0
+|I|: name vT9xhqPO6+0 function sceNpLookupCreateTitleCtxA library libSceNpUtility module libSceNpUtility bind 1 type 2 visibility 0
+|I|: name mtqDK9zkoIE function sceNpLookupDeleteTitleCtx library libSceNpUtility module libSceNpUtility bind 1 type 2 visibility 0
+|I|: name wLaxchvEEnk function sceNpLookupDeleteRequest library libSceNpUtility module libSceNpUtility bind 1 type 2 visibility 0
+|I|: name V4EVrruHuy8 function sceNpLookupPollAsync library libSceNpUtility module libSceNpUtility bind 1 type 2 visibility 0
+|I|: name DscD1i9HX1w function scePadResetLightBar library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name 6ncge5+l5Qs function scePadClose library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name gjP9-KQzoUk function scePadGetControllerInformation library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name xk0AcarP3V4 function scePadOpen library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name q1cHNfGycLI function scePadRead library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name RR4novUEENY function scePadSetLightBar library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name clVvL4ZDntw function scePadSetMotionSensorState library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name yFVnOdGxvZY function scePadSetVibration library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name hv1luiJrqQM function scePadInit library libScePad module libScePad bind 1 type 2 visibility 0
+|I|: name ueega6v3GUw function sceRtcSetTick library libSceRtc module libSceRtc bind 1 type 2 visibility 0
+|I|: name S1GkePI17zQ function sceSaveDataDelete library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name dyIhnXq-0SM function sceSaveDataDirNameSearch library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name TywrFKCoLGY function sceSaveDataInitialize3 library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name 0z45PIH+SNI function sceSaveDataMount2 library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name BMR4F-Uek3E function sceSaveDataUmount library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name 65VH0Qaaz6s function sceSaveDataGetMountInfo library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name 85zul--eGXs function sceSaveDataSetParam library libSceSaveData module libSceSaveData bind 1 type 2 visibility 0
+|I|: name fH46Lag88XY function sceSaveDataDialogClose library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name yEiJ-qqr6Cg function sceSaveDataDialogGetResult library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name s9e3+YpRnzw function sceSaveDataDialogInitialize library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name 4tPhsP6FpDI function sceSaveDataDialogOpen library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name hay1CfTmLyA function sceSaveDataDialogProgressBarSetValue library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name YuH2FA7azqQ function sceSaveDataDialogTerminate library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name KK3Bdg1RWK0 function sceSaveDataDialogUpdateStatus library libSceSaveDataDialog module libSceSaveDataDialog bind 1 type 2 visibility 0
+|I|: name tIYf0W5VTi8 function sceScreenShotDisable library libSceScreenShot module libSceScreenShot bind 1 type 2 visibility 0
+|I|: name 2xxUtuC-RzE function sceScreenShotEnable library libSceScreenShot module libSceScreenShot bind 1 type 2 visibility 0
+|I|: name hdpVEUDFW3s function sceSslInit library libSceSsl module libSceSsl bind 1 type 2 visibility 0
+|I|: name g8cM39EUZ6o function sceSysmoduleLoadModule library libSceSysmodule module libSceSysmodule bind 1 type 2 visibility 0
+|I|: name eR2bZFAAU0Q function sceSysmoduleUnloadModule library libSceSysmodule module libSceSysmodule bind 1 type 2 visibility 0
+|I|: name 1n37q1Bvc5Y function sceSystemServiceGetDisplaySafeAreaInfo library libSceSystemService module libSceSystemService bind 1 type 2 visibility 0
+|I|: name rPo6tV8D9bM function sceSystemServiceGetStatus library libSceSystemService module libSceSystemService bind 1 type 2 visibility 0
+|I|: name Vo5V8KAwCmk function sceSystemServiceHideSplashScreen library libSceSystemService module libSceSystemService bind 1 type 2 visibility 0
+|I|: name fZo48un7LK4 function sceSystemServiceParamGetInt library libSceSystemService module libSceSystemService bind 1 type 2 visibility 0
+|I|: name 656LMQSrg6U function sceSystemServiceReceiveEvent library libSceSystemService module libSceSystemService bind 1 type 2 visibility 0
+|I|: name fPhymKNvK-A function sceUserServiceGetLoginUserIdList library libSceUserService module libSceUserService bind 1 type 2 visibility 0
+|I|: name CdWp0oHWGr0 function sceUserServiceGetInitialUser library libSceUserService module libSceUserService bind 1 type 2 visibility 0
+|I|: name j3YMu1MVNNo function sceUserServiceInitialize library libSceUserService module libSceUserService bind 1 type 2 visibility 0
+|I|: name yH17Q6NWtVg function sceUserServiceGetEvent library libSceUserService module libSceUserService bind 1 type 2 visibility 0
+|I|: name 1xxcMiGu2fo function sceUserServiceGetUserName library libSceUserService module libSceUserService bind 1 type 2 visibility 0
+|I|: name SbU3dwp80lQ function sceVideoOutGetFlipStatus library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name 6kPnj51T62Y function sceVideoOutGetResolutionStatus library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name 1FZBKy8HeNU function sceVideoOutGetVblankStatus library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name Up36PTk687E function sceVideoOutOpen library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name w3BY+tAEiQY function sceVideoOutRegisterBuffers library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name i6-sR91Wt-4 function sceVideoOutSetBufferAttribute library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name CBiu4mCE1DA function sceVideoOutSetFlipRate library libSceVideoOut module libSceVideoOut bind 1 type 2 visibility 0
+|I|: name Fc8qxlKINYQ function sceVideoRecordingSetInfo library libSceVideoRecording module libSceVideoRecording bind 1 type 2 visibility 0
+|I|: name tIhsqj0qsFE function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name gQX+4GDQjpM function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name kiZSXIWd9vg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name j4ViWNHEgww function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name uodLYyUip20 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name qdlHjTa9hQ4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name xeYO4u7uyJ0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name lbB+UlZqVG0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name rQFVBXp-Cxg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Qazy8LmXTvw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name MpxhMh8QFro function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name AEJdIVZTEmo function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name MZO7FXyAPU8 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name eLdDw6l0-bU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name tcVi5SivF7Q function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name AV6ipCNa4Rw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name g7zzzLDYGw0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name AHxyhN96dy4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name efhK-YSUYYQ function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Q3VBxCXhUHs function memcpy library libc module libc bind 1 type 2 visibility 0
+|I|: name n7AepwR0s34 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name tLB5+4TEOK0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Y7aJ1uydPMo function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name RIa6GnWp+iU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Ovb2dSJOAuE function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 9yDWMxEFdJU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name zlfEH8FmyUA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name St9nbxSoezk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 8u8lPzUEq+U function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name DfivPArhucg function memcmp library libc module libc bind 1 type 2 visibility 0
+|I|: name aesyjrHVWy4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name wLlFkwG9UcQ function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name ZtjspkJQ+vw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 6sJWiWSRuqk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name H8AprKeZtNg function UNK library libc module libc bind 1 type 1 visibility 0
+|I|: name L1SBTkC+Cvw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name fffwELXNVFA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name aZK8lNei-Qw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 8zTFvBIAIN8 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name lKEN2IebgJ0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name gNQ1V2vfXDE function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 9LCjpWyQ5Zc function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 2vDqwBlpF-o function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name MUjC4lbHrK4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 1mecP7RgI2A function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name tsvEmnenz48 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name zr094EQ39Ww function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name WkkeywLJcgU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name SRI6S9B+-a4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name sUP1hBaouOw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 1uJgoVq3bQU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name rcQCUr0EaRU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name hcuQgD53UxM function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Q2V+iqvjgC0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name viiwFMaNamA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Ls4tzzhimqQ function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name ob5xAW4ln-0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 7pNKcscKrf8 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name gfP0im5Z3g0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name mXlxhmLNMPg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name GfxAp9Xyiqs function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name uMei1W9uyNo function exit library libc module libc bind 1 type 2 visibility 0
+|I|: name pKwslsMUmSk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name +P6FRGH4LfA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name jbz9I9vkqkk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name VUzjXknPPBs function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name v7S7LhP2OJc function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name VOKOgR7L-2Y function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name rcVv5ivMhY0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name LxcEU+ICu8U function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name AEuF3F2f8TA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name QrZZdJ8XsX0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name npLpPTaSuHg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name CyXs2l-1kNA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name zXCi78bYrEI function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name cCXjU72Z0Ow function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name DbEnA+MnVIw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name QI-x0SL8jhw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name GZWjF-YIFFk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name EH-x713A99c function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name weDug8QD-lE function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name NVadfnzQhHQ function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 88Vv-AzHVj8 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 0WMHDb5Dt94 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 3+UPM-9E6xY function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name PtsB1Q9wsFA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name ZE6RNL+eLbk function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name Av3zjWi64Kw function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 1Pk0qZQGeWo function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name YQ0navp+YIc function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name QMFyLoqNxIg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name EMutwaQ34Jo function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name oVkZ8W8-Q8A function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name SHlt7EhOtqA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name JBcgYuW8lPU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 7Ly52zaL44Q function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name OXmauLdQ8kY function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name HUbZmOnT-Dg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name cpCOXWMgha0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name T7uyNqP7vQA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 2X5agFjKxMc function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 8zsu04XNsZ4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name VPbJwTCgME0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name kHg45qPC6f0 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name -LFO7jhD5CE function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name pDBDcY6uLSA function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name GMpvxPFW924 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name pXvbDfchu6k function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name 1TDo-ImqkJc function UNK library libc module libc bind 1 type 1 visibility 0
+|I|: name 2sWzhYqFH4E function UNK library libc module libc bind 1 type 1 visibility 0
+|I|: name 8Q60JLJ6Rv4 function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name q+9E0X3aWpU function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name LYo3GhIlB38 function sceLibcMspaceCalloc library libc module libc bind 1 type 2 visibility 0
+|I|: name -hn1tcVHq5Q function sceLibcMspaceCreate library libc module libc bind 1 type 2 visibility 0
+|I|: name W6SiVSiCDtI function sceLibcMspaceDestroy library libc module libc bind 1 type 2 visibility 0
+|I|: name Vla-Z+eXlxo function sceLibcMspaceFree library libc module libc bind 1 type 2 visibility 0
+|I|: name OJjm-QOIHlI function sceLibcMspaceMalloc library libc module libc bind 1 type 2 visibility 0
+|I|: name mfHdJTIvhuo function sceLibcMspaceMallocStats library libc module libc bind 1 type 2 visibility 0
+|I|: name k04jLXu3+Ic function sceLibcMspaceMallocStatsFast library libc module libc bind 1 type 2 visibility 0
+|I|: name fEoW6BJsPt4 function sceLibcMspaceMallocUsableSize library libc module libc bind 1 type 2 visibility 0
+|I|: name iF1iQHzxBJU function sceLibcMspaceMemalign library libc module libc bind 1 type 2 visibility 0
+|I|: name qWESlyXMI3E function sceLibcMspacePosixMemalign library libc module libc bind 1 type 2 visibility 0
+|I|: name gigoVHZvVPE function sceLibcMspaceRealloc library libc module libc bind 1 type 2 visibility 0
+|I|: name p6lrRW8-MLY function sceLibcMspaceReallocalign library libc module libc bind 1 type 2 visibility 0
+|I|: name CkY0AVa-frg function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name xENtRue8dpI function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name P330P3dFF68 function Need_sceLibc library libc module libc bind 1 type 1 visibility 0
+|I|: name bzQExy189ZI function _init_env library libc module libc bind 1 type 2 visibility 0
+|I|: name 8G2LB+A3rzg function atexit library libc module libc bind 1 type 2 visibility 0
+|I|: name XKRegsFpEpk function catchReturnFromMain library libc module libc bind 1 type 2 visibility 0
+|I|: name 3GPpjQdAMTw function __cxa_guard_acquire library libc module libc bind 1 type 2 visibility 0
+|I|: name 9rAeANT2tyE function __cxa_guard_release library libc module libc bind 1 type 2 visibility 0
+|I|: name dnaeGXbjP6E function UNK library libc module libc bind 1 type 2 visibility 0
+|I|: name NN01qLRhiqU function UNK library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name E6ao34wPw+U function UNK library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name yS8U2TGCe1A function UNK library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name JGMio+21L4c function UNK library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name ltCfaGr2JGE function pthread_mutex_destroy library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name ttHNfU+qDBU function pthread_mutex_init library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name 7H0iTOciTLo function pthread_mutex_lock library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name 2Z+PpY6CaJg function pthread_mutex_unlock library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name h9CcP3J0oVM function pthread_join library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name OxhIB8LB-PQ function pthread_create library libScePosix module libkernel bind 1 type 2 visibility 0
+|I|: name 9BcDykPmo1I function __error library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name Ou3iL1abvng function __stack_chk_fail library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name f7uOxY9mM1U function __stack_chk_guard library libkernel module libkernel bind 1 type 1 visibility 0
+|I|: name 1-LFLmRFxxM function sceKernelMkdir library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name 6UgtwV+0zb4 function scePthreadCreate library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name UK2Tl2DWUns function sceKernelClose library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name j2AIqSqJP0w function sceKernelGetdents library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name 1G3lF1Gg1k8 function sceKernelOpen library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name eV9wAD2riIA function sceKernelStat library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name WslcK1FQcGI function sceKernelIsNeoMode library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name 1jfXLRVzisc function sceKernelUsleep library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name LwG8g3niqwA function sceKernelDlsym library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name wzvqT4UqKX8 function sceKernelLoadStartModule library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name QKd0qM58Qes function sceKernelStopUnloadModule library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name QBi7HCK03hw function sceKernelClockGettime library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name -ZR+hG7aDHw function sceKernelSleep library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name aI+OeCz8xrQ function scePthreadSelf library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name bt3CTBKmGyI function scePthreadSetaffinity library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name D0OdFMjp46I function sceKernelCreateEqueue library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name fzyMKs9kim0 function sceKernelWaitEqueue library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name T72hz6ffq08 function scePthreadYield library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name nsYoNRywwNg function scePthreadAttrInit library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name -Wreprtu0Qs function scePthreadAttrSetdetachstate library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name rTXw65xmLIA function sceKernelAllocateDirectMemory library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name pO96TwzOm5E function sceKernelGetDirectMemorySize library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name L-Q3LEjIbgA function sceKernelMapDirectMemory library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name MBuItvba6z8 function sceKernelReleaseDirectMemory library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name 62KCwEMmzcM function scePthreadAttrDestroy library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name UTXzJbWhhTE function scePthreadAttrSetstacksize library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name 3kg7rT0NQIs function scePthreadExit library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name rcrVFJsQWRY function scePthreadGetaffinity library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: name onNY9Byn-W8 function scePthreadJoin library libkernel module libkernel bind 1 type 2 visibility 0
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! lbB+UlZqVG0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved lbB+UlZqVG0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! uodLYyUip20 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved uodLYyUip20 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! Qazy8LmXTvw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved Qazy8LmXTvw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! AV6ipCNa4Rw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved AV6ipCNa4Rw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! H8AprKeZtNg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved H8AprKeZtNg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! lKEN2IebgJ0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved lKEN2IebgJ0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 1TDo-ImqkJc lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 1TDo-ImqkJc as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 2sWzhYqFH4E lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 2sWzhYqFH4E as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 9BcDykPmo1I lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 9BcDykPmo1I as __error (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! uodLYyUip20 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved uodLYyUip20 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! qdlHjTa9hQ4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved qdlHjTa9hQ4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! xeYO4u7uyJ0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved xeYO4u7uyJ0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! lbB+UlZqVG0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved lbB+UlZqVG0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! rQFVBXp-Cxg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved rQFVBXp-Cxg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! Qazy8LmXTvw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved Qazy8LmXTvw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! MpxhMh8QFro lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved MpxhMh8QFro as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! MZO7FXyAPU8 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved MZO7FXyAPU8 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! NN01qLRhiqU lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved NN01qLRhiqU as Unknown !!! (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! eLdDw6l0-bU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved eLdDw6l0-bU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! tcVi5SivF7Q lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved tcVi5SivF7Q as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! AV6ipCNa4Rw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved AV6ipCNa4Rw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! g7zzzLDYGw0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved g7zzzLDYGw0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! AHxyhN96dy4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved AHxyhN96dy4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! efhK-YSUYYQ lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved efhK-YSUYYQ as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! n7AepwR0s34 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved n7AepwR0s34 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! tLB5+4TEOK0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved tLB5+4TEOK0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! Y7aJ1uydPMo lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved Y7aJ1uydPMo as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! RIa6GnWp+iU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved RIa6GnWp+iU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 9yDWMxEFdJU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 9yDWMxEFdJU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zlfEH8FmyUA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zlfEH8FmyUA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! St9nbxSoezk lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved St9nbxSoezk as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 8u8lPzUEq+U lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 8u8lPzUEq+U as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! E6ao34wPw+U lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved E6ao34wPw+U as Unknown !!! (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! aesyjrHVWy4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved aesyjrHVWy4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! wLlFkwG9UcQ lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved wLlFkwG9UcQ as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! L1SBTkC+Cvw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved L1SBTkC+Cvw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! fffwELXNVFA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved fffwELXNVFA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! aZK8lNei-Qw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved aZK8lNei-Qw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! lKEN2IebgJ0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved lKEN2IebgJ0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! gNQ1V2vfXDE lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved gNQ1V2vfXDE as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 2vDqwBlpF-o lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 2vDqwBlpF-o as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! MUjC4lbHrK4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved MUjC4lbHrK4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 1mecP7RgI2A lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 1mecP7RgI2A as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! tsvEmnenz48 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved tsvEmnenz48 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! WkkeywLJcgU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved WkkeywLJcgU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! SRI6S9B+-a4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved SRI6S9B+-a4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! sUP1hBaouOw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved sUP1hBaouOw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 1uJgoVq3bQU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 1uJgoVq3bQU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! rcQCUr0EaRU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved rcQCUr0EaRU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! viiwFMaNamA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved viiwFMaNamA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! ob5xAW4ln-0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved ob5xAW4ln-0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 7pNKcscKrf8 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 7pNKcscKrf8 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! gfP0im5Z3g0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved gfP0im5Z3g0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! mXlxhmLNMPg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved mXlxhmLNMPg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! GfxAp9Xyiqs lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved GfxAp9Xyiqs as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! pKwslsMUmSk lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved pKwslsMUmSk as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! jbz9I9vkqkk lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved jbz9I9vkqkk as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! VUzjXknPPBs lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved VUzjXknPPBs as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! uoUpLGNkygk lib[libSceCommonDialog_v1]mod[libSceCommonDialog_v1.1]
+|E|: Linker: Stub resolved uoUpLGNkygk as sceCommonDialogInitialize (lib: libSceCommonDialog, mod: libSceCommonDialog) 
+|I|: Unresolved! oBmw4xrmfKs lib[libSceImeDialog_v1]mod[libSceImeDialog_v1.1]
+|E|: Linker: Stub resolved oBmw4xrmfKs as sceImeDialogAbort (lib: libSceImeDialog, mod: libSceImeDialog) 
+|I|: Unresolved! x01jxu+vxlc lib[libSceImeDialog_v1]mod[libSceImeDialog_v1.1]
+|E|: Linker: Stub resolved x01jxu+vxlc as sceImeDialogGetResult (lib: libSceImeDialog, mod: libSceImeDialog) 
+|I|: Unresolved! IADmD4tScBY lib[libSceImeDialog_v1]mod[libSceImeDialog_v1.1]
+|E|: Linker: Stub resolved IADmD4tScBY as sceImeDialogGetStatus (lib: libSceImeDialog, mod: libSceImeDialog) 
+|I|: Unresolved! NUeBrN7hzf0 lib[libSceImeDialog_v1]mod[libSceImeDialog_v1.1]
+|E|: Linker: Stub resolved NUeBrN7hzf0 as sceImeDialogInit (lib: libSceImeDialog, mod: libSceImeDialog) 
+|I|: Unresolved! gyTyVn+bXMw lib[libSceImeDialog_v1]mod[libSceImeDialog_v1.1]
+|E|: Linker: Stub resolved gyTyVn+bXMw as sceImeDialogTerm (lib: libSceImeDialog, mod: libSceImeDialog) 
+|I|: Unresolved! 1-LFLmRFxxM lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 1-LFLmRFxxM as sceKernelMkdir (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! HTrcDKlFKuM lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved HTrcDKlFKuM as sceMsgDialogClose (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! Lr8ovHH9l6A lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved Lr8ovHH9l6A as sceMsgDialogGetResult (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! lDqxaY1UbEo lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved lDqxaY1UbEo as sceMsgDialogInitialize (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! b06Hh0DPEaE lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved b06Hh0DPEaE as sceMsgDialogOpen (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! ePw-kqZmelo lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved ePw-kqZmelo as sceMsgDialogTerminate (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! 6fIC3XKt2k0 lib[libSceMsgDialog_v1]mod[libSceMsgDialog_v1.1]
+|E|: Linker: Stub resolved 6fIC3XKt2k0 as sceMsgDialogUpdateStatus (lib: libSceMsgDialog, mod: libSceMsgDialog) 
+|I|: Unresolved! 6UgtwV+0zb4 lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 6UgtwV+0zb4 as scePthreadCreate (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! S1GkePI17zQ lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved S1GkePI17zQ as sceSaveDataDelete (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! fH46Lag88XY lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved fH46Lag88XY as sceSaveDataDialogClose (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! yEiJ-qqr6Cg lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved yEiJ-qqr6Cg as sceSaveDataDialogGetResult (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! s9e3+YpRnzw lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved s9e3+YpRnzw as sceSaveDataDialogInitialize (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! 4tPhsP6FpDI lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved 4tPhsP6FpDI as sceSaveDataDialogOpen (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! hay1CfTmLyA lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved hay1CfTmLyA as sceSaveDataDialogProgressBarSetValue (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! YuH2FA7azqQ lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved YuH2FA7azqQ as sceSaveDataDialogTerminate (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! KK3Bdg1RWK0 lib[libSceSaveDataDialog_v1]mod[libSceSaveDataDialog_v1.1]
+|E|: Linker: Stub resolved KK3Bdg1RWK0 as sceSaveDataDialogUpdateStatus (lib: libSceSaveDataDialog, mod: libSceSaveDataDialog) 
+|I|: Unresolved! dyIhnXq-0SM lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved dyIhnXq-0SM as sceSaveDataDirNameSearch (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! TywrFKCoLGY lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved TywrFKCoLGY as sceSaveDataInitialize3 (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! 0z45PIH+SNI lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved 0z45PIH+SNI as sceSaveDataMount2 (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! BMR4F-Uek3E lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved BMR4F-Uek3E as sceSaveDataUmount (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! g8cM39EUZ6o lib[libSceSysmodule_v1]mod[libSceSysmodule_v1.1]
+|E|: Linker: Stub resolved g8cM39EUZ6o as sceSysmoduleLoadModule (lib: libSceSysmodule, mod: libSceSysmodule) 
+|I|: Unresolved! eR2bZFAAU0Q lib[libSceSysmodule_v1]mod[libSceSysmodule_v1.1]
+|E|: Linker: Stub resolved eR2bZFAAU0Q as sceSysmoduleUnloadModule (lib: libSceSysmodule, mod: libSceSysmodule) 
+|I|: Unresolved! v7S7LhP2OJc lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved v7S7LhP2OJc as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! VOKOgR7L-2Y lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved VOKOgR7L-2Y as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! rcVv5ivMhY0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved rcVv5ivMhY0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! LxcEU+ICu8U lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved LxcEU+ICu8U as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! AEuF3F2f8TA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved AEuF3F2f8TA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! QrZZdJ8XsX0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved QrZZdJ8XsX0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! npLpPTaSuHg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved npLpPTaSuHg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! CyXs2l-1kNA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved CyXs2l-1kNA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! zXCi78bYrEI lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved zXCi78bYrEI as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! DbEnA+MnVIw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved DbEnA+MnVIw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! weDug8QD-lE lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved weDug8QD-lE as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! NVadfnzQhHQ lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved NVadfnzQhHQ as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 88Vv-AzHVj8 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 88Vv-AzHVj8 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 0WMHDb5Dt94 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 0WMHDb5Dt94 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 3+UPM-9E6xY lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 3+UPM-9E6xY as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! PtsB1Q9wsFA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved PtsB1Q9wsFA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! Av3zjWi64Kw lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved Av3zjWi64Kw as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! UK2Tl2DWUns lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved UK2Tl2DWUns as sceKernelClose (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! j2AIqSqJP0w lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved j2AIqSqJP0w as sceKernelGetdents (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! eV9wAD2riIA lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved eV9wAD2riIA as sceKernelStat (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! 1n37q1Bvc5Y lib[libSceSystemService_v1]mod[libSceSystemService_v1.1]
+|E|: Linker: Stub resolved 1n37q1Bvc5Y as sceSystemServiceGetDisplaySafeAreaInfo (lib: libSceSystemService, mod: libSceSystemService) 
+|I|: Unresolved! DscD1i9HX1w lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved DscD1i9HX1w as scePadResetLightBar (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! tIYf0W5VTi8 lib[libSceScreenShot_v1]mod[libSceScreenShot_v0.9]
+|E|: Linker: Stub resolved tIYf0W5VTi8 as sceScreenShotDisable (lib: libSceScreenShot, mod: libSceScreenShot) 
+|I|: Unresolved! 2xxUtuC-RzE lib[libSceScreenShot_v1]mod[libSceScreenShot_v0.9]
+|E|: Linker: Stub resolved 2xxUtuC-RzE as sceScreenShotEnable (lib: libSceScreenShot, mod: libSceScreenShot) 
+|I|: Unresolved! Fc8qxlKINYQ lib[libSceVideoRecording_v1]mod[libSceVideoRecording_v1.1]
+|E|: Linker: Stub resolved Fc8qxlKINYQ as sceVideoRecordingSetInfo (lib: libSceVideoRecording, mod: libSceVideoRecording) 
+|I|: Unresolved! 1Pk0qZQGeWo lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 1Pk0qZQGeWo as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! QMFyLoqNxIg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved QMFyLoqNxIg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! EMutwaQ34Jo lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved EMutwaQ34Jo as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! oVkZ8W8-Q8A lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved oVkZ8W8-Q8A as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 6ncge5+l5Qs lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved 6ncge5+l5Qs as scePadClose (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! gjP9-KQzoUk lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved gjP9-KQzoUk as scePadGetControllerInformation (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! q1cHNfGycLI lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved q1cHNfGycLI as scePadRead (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! RR4novUEENY lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved RR4novUEENY as scePadSetLightBar (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! clVvL4ZDntw lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved clVvL4ZDntw as scePadSetMotionSensorState (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! yFVnOdGxvZY lib[libScePad_v1]mod[libScePad_v1.1]
+|E|: Linker: Stub resolved yFVnOdGxvZY as scePadSetVibration (lib: libScePad, mod: libScePad) 
+|I|: Unresolved! SHlt7EhOtqA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved SHlt7EhOtqA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 1jfXLRVzisc lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 1jfXLRVzisc as sceKernelUsleep (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! 65VH0Qaaz6s lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved 65VH0Qaaz6s as sceSaveDataGetMountInfo (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! CdWp0oHWGr0 lib[libSceUserService_v1]mod[libSceUserService_v1.1]
+|E|: Linker: Stub resolved CdWp0oHWGr0 as sceUserServiceGetInitialUser (lib: libSceUserService, mod: libSceUserService) 
+|I|: Unresolved! EY28T2bkN7k lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved EY28T2bkN7k as sceHttpAddRequestHeader (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! qgxDBjorUxs lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved qgxDBjorUxs as sceHttpCreateConnectionWithURL (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 6381dWF+xsQ lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 6381dWF+xsQ as sceHttpCreateEpoll (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! Cnp77podkCU lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved Cnp77podkCU as sceHttpCreateRequestWithURL2 (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 0gYjPTR-6cY lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 0gYjPTR-6cY as sceHttpCreateTemplate (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! P6A3ytpsiYc lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved P6A3ytpsiYc as sceHttpDeleteConnection (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! qe7oZ+v4PWA lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved qe7oZ+v4PWA as sceHttpDeleteRequest (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 4I8vEpuEhZ8 lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 4I8vEpuEhZ8 as sceHttpDeleteTemplate (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! wYhXVfS2Et4 lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved wYhXVfS2Et4 as sceHttpDestroyEpoll (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! aCYPMSUIaP8 lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved aCYPMSUIaP8 as sceHttpGetAllResponseHeaders (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! yuO2H2Uvnos lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved yuO2H2Uvnos as sceHttpGetResponseContentLength (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 0a2TBNfE3BU lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 0a2TBNfE3BU as sceHttpGetStatusCode (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! A9cVMUtEp4Y lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved A9cVMUtEp4Y as sceHttpInit (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! P5pdoykPYTk lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved P5pdoykPYTk as sceHttpReadData (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 1e2BNwI-XzE lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 1e2BNwI-XzE as sceHttpSendRequest (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! -xm7kZQNpHI lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved -xm7kZQNpHI as sceHttpSetEpoll (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! s2-NPIvz+iA lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved s2-NPIvz+iA as sceHttpSetNonblock (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! Ik-KpLTlf7Q lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved Ik-KpLTlf7Q as sceHttpTerm (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! 59tL1AQBb8U lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved 59tL1AQBb8U as sceHttpUnsetEpoll (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! qISjDHrxONc lib[libSceHttp_v1]mod[libSceHttp_v1.1]
+|E|: Linker: Stub resolved qISjDHrxONc as sceHttpWaitRequest (lib: libSceHttp, mod: libSceHttp) 
+|I|: Unresolved! hdpVEUDFW3s lib[libSceSsl_v1]mod[libSceSsl_v1.1]
+|E|: Linker: Stub resolved hdpVEUDFW3s as sceSslInit (lib: libSceSsl, mod: libSceSsl) 
+|I|: Unresolved! JBcgYuW8lPU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved JBcgYuW8lPU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 7Ly52zaL44Q lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 7Ly52zaL44Q as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! OXmauLdQ8kY lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved OXmauLdQ8kY as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! HUbZmOnT-Dg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved HUbZmOnT-Dg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! T7uyNqP7vQA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved T7uyNqP7vQA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 2X5agFjKxMc lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 2X5agFjKxMc as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! Nlev7Lg8k3A lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved Nlev7Lg8k3A as sceNetInit (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! dgJBaeJnGpo lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved dgJBaeJnGpo as sceNetPoolCreate (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! K7RlrTkI-mw lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved K7RlrTkI-mw as sceNetPoolDestroy (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! cTGkc6-TBlI lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved cTGkc6-TBlI as sceNetTerm (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! ZVw46bsasAk lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved ZVw46bsasAk as sceNetEpollControl (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! drjIbDbA7UQ lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved drjIbDbA7UQ as sceNetEpollWait (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! HQOwnfMGipQ lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved HQOwnfMGipQ as sceNetErrnoLoc (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! TCkRD0DWNLg lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved TCkRD0DWNLg as sceNetGetpeername (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! PIWqhn9oSxc lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved PIWqhn9oSxc as sceNetAccept (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! bErx49PgxyY lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved bErx49PgxyY as sceNetBind (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! OXXX4mUk3uk lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved OXXX4mUk3uk as sceNetConnect (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! SF47kB2MNTo lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved SF47kB2MNTo as sceNetEpollCreate (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! hLuXdjHnhiI lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved hLuXdjHnhiI as sceNetGetSockInfo (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! xphrZusl78E lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved xphrZusl78E as sceNetGetsockopt (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! iWQWrwiSt8A lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved iWQWrwiSt8A as sceNetHtons (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 9vA2aW+CHuA lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 9vA2aW+CHuA as sceNetInetNtop (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 8Kcp5d-q1Uo lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 8Kcp5d-q1Uo as sceNetInetPton (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! kOj1HiAGE54 lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved kOj1HiAGE54 as sceNetListen (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 9wO9XrMsNhc lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 9wO9XrMsNhc as sceNetRecv (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 304ooNZxWDY lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 304ooNZxWDY as sceNetRecvfrom (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! C4UgDHHPvdw lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved C4UgDHHPvdw as sceNetResolverCreate (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! kJlYH5uMAWI lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved kJlYH5uMAWI as sceNetResolverDestroy (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! Nd91WaWmG2w lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved Nd91WaWmG2w as sceNetResolverStartNtoa (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! beRjXBn-z+o lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved beRjXBn-z+o as sceNetSend (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! gvD1greCu0A lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved gvD1greCu0A as sceNetSendto (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 2mKX2Spso7I lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 2mKX2Spso7I as sceNetSetsockopt (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! TSM6whtekok lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved TSM6whtekok as sceNetShutdown (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! Q4qBuN-c0ZM lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved Q4qBuN-c0ZM as sceNetSocket (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! zJGf8xjFnQE lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved zJGf8xjFnQE as sceNetSocketAbort (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 45ggEzakPJQ lib[libSceNet_v1]mod[libSceNet_v1.1]
+|E|: Linker: Stub resolved 45ggEzakPJQ as sceNetSocketClose (lib: libSceNet, mod: libSceNet) 
+|I|: Unresolved! 8zsu04XNsZ4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 8zsu04XNsZ4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! VPbJwTCgME0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved VPbJwTCgME0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! kHg45qPC6f0 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved kHg45qPC6f0 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! -LFO7jhD5CE lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved -LFO7jhD5CE as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! yS8U2TGCe1A lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved yS8U2TGCe1A as Unknown !!! (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! Jh6WbHhnI68 lib[libSceAudioIn_v1]mod[libSceAudioIn_v1.1]
+|E|: Linker: Stub resolved Jh6WbHhnI68 as sceAudioInClose (lib: libSceAudioIn, mod: libSceAudioIn) 
+|I|: Unresolved! LozEOU8+anM lib[libSceAudioIn_v1]mod[libSceAudioIn_v1.1]
+|E|: Linker: Stub resolved LozEOU8+anM as sceAudioInInput (lib: libSceAudioIn, mod: libSceAudioIn) 
+|I|: Unresolved! 5NE8Sjc7VC8 lib[libSceAudioIn_v1]mod[libSceAudioIn_v1.1]
+|E|: Linker: Stub resolved 5NE8Sjc7VC8 as sceAudioInOpen (lib: libSceAudioIn, mod: libSceAudioIn) 
+|I|: Unresolved! s1--uE9mBFw lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved s1--uE9mBFw as sceAudioOutClose (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! JfEPXVxhFqA lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved JfEPXVxhFqA as sceAudioOutInit (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! ekNvsT22rsY lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved ekNvsT22rsY as sceAudioOutOpen (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! QOQtbeDqsT4 lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved QOQtbeDqsT4 as sceAudioOutOutput (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! w3PdaSTSwGE lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved w3PdaSTSwGE as sceAudioOutOutputs (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! b+uAV89IlxE lib[libSceAudioOut_v1]mod[libSceAudioOut_v1.1]
+|E|: Linker: Stub resolved b+uAV89IlxE as sceAudioOutSetVolume (lib: libSceAudioOut, mod: libSceAudioOut) 
+|I|: Unresolved! LwG8g3niqwA lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved LwG8g3niqwA as sceKernelDlsym (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! wzvqT4UqKX8 lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved wzvqT4UqKX8 as sceKernelLoadStartModule (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! QKd0qM58Qes lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved QKd0qM58Qes as sceKernelStopUnloadModule (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! JGMio+21L4c lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved JGMio+21L4c as Unknown !!! (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! QBi7HCK03hw lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved QBi7HCK03hw as sceKernelClockGettime (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! -ZR+hG7aDHw lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved -ZR+hG7aDHw as sceKernelSleep (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! pDBDcY6uLSA lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved pDBDcY6uLSA as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! GMpvxPFW924 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved GMpvxPFW924 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! pXvbDfchu6k lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved pXvbDfchu6k as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! 8Q60JLJ6Rv4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved 8Q60JLJ6Rv4 as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! ltCfaGr2JGE lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved ltCfaGr2JGE as pthread_mutex_destroy (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! ttHNfU+qDBU lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved ttHNfU+qDBU as pthread_mutex_init (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! 7H0iTOciTLo lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 7H0iTOciTLo as pthread_mutex_lock (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! 2Z+PpY6CaJg lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 2Z+PpY6CaJg as pthread_mutex_unlock (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! h9CcP3J0oVM lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved h9CcP3J0oVM as pthread_join (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! aI+OeCz8xrQ lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved aI+OeCz8xrQ as scePthreadSelf (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! bt3CTBKmGyI lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved bt3CTBKmGyI as scePthreadSetaffinity (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! T72hz6ffq08 lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved T72hz6ffq08 as scePthreadYield (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! 85zul--eGXs lib[libSceSaveData_v1]mod[libSceSaveData_v1.1]
+|E|: Linker: Stub resolved 85zul--eGXs as sceSaveDataSetParam (lib: libSceSaveData, mod: libSceSaveData) 
+|I|: Unresolved! rPo6tV8D9bM lib[libSceSystemService_v1]mod[libSceSystemService_v1.1]
+|E|: Linker: Stub resolved rPo6tV8D9bM as sceSystemServiceGetStatus (lib: libSceSystemService, mod: libSceSystemService) 
+|I|: Unresolved! fZo48un7LK4 lib[libSceSystemService_v1]mod[libSceSystemService_v1.1]
+|E|: Linker: Stub resolved fZo48un7LK4 as sceSystemServiceParamGetInt (lib: libSceSystemService, mod: libSceSystemService) 
+|I|: Unresolved! 656LMQSrg6U lib[libSceSystemService_v1]mod[libSceSystemService_v1.1]
+|E|: Linker: Stub resolved 656LMQSrg6U as sceSystemServiceReceiveEvent (lib: libSceSystemService, mod: libSceSystemService) 
+|I|: Unresolved! 1FZBKy8HeNU lib[libSceVideoOut_v1]mod[libSceVideoOut_v0.0]
+|E|: Linker: Stub resolved 1FZBKy8HeNU as sceVideoOutGetVblankStatus (lib: libSceVideoOut, mod: libSceVideoOut) 
+|I|: Unresolved! 5-UHpg8s00I lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 5-UHpg8s00I as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ngZMooSt-ys lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ngZMooSt-ys as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! JRL5HQ04IFM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved JRL5HQ04IFM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ALj-caXHUZI lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ALj-caXHUZI as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ZzkCpCDDeIE lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ZzkCpCDDeIE as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! -o8Vy6K2H-g lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved -o8Vy6K2H-g as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 6hUKoSNxGHM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 6hUKoSNxGHM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! leypPkXymaA lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved leypPkXymaA as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 2YcKd7nB+Ag lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 2YcKd7nB+Ag as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! hqynGeY-OR8 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved hqynGeY-OR8 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 8MqwVJd-cSY lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 8MqwVJd-cSY as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ApblR7nulzY lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ApblR7nulzY as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! kRbUAm1Du+g lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved kRbUAm1Du+g as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! rbknaUjpqWo lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved rbknaUjpqWo as sceNpGetAccountIdA (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! XDncXQIJUSk lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved XDncXQIJUSk as sceNpGetOnlineId (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! GWnWQNXZH5M lib[libSceNpScore_v1]mod[libSceNpScore_v1.1]
+|E|: Linker: Stub resolved GWnWQNXZH5M as sceNpScoreCreateNpTitleCtxA (lib: libSceNpScore, mod: libSceNpScore) 
+|I|: Unresolved! gW8qyjYrUbk lib[libSceNpScore_v1]mod[libSceNpScore_v1.1]
+|E|: Linker: Stub resolved gW8qyjYrUbk as sceNpScoreCreateRequest (lib: libSceNpScore, mod: libSceNpScore) 
+|I|: Unresolved! dK8-SgYf6r4 lib[libSceNpScore_v1]mod[libSceNpScore_v1.1]
+|E|: Linker: Stub resolved dK8-SgYf6r4 as sceNpScoreDeleteRequest (lib: libSceNpScore, mod: libSceNpScore) 
+|I|: Unresolved! K9tlODTQx3c lib[libSceNpScore_v1]mod[libSceNpScore_v1.1]
+|E|: Linker: Stub resolved K9tlODTQx3c as sceNpScoreGetRankingByAccountId (lib: libSceNpScore, mod: libSceNpScore) 
+|I|: Unresolved! MA9vSt7JImY lib[libSceNpScore_v1]mod[libSceNpScore_v1.1]
+|E|: Linker: Stub resolved MA9vSt7JImY as sceNpScoreGetRankingByRangeA (lib: libSceNpScore, mod: libSceNpScore) 
+|I|: Unresolved! q+9E0X3aWpU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved q+9E0X3aWpU as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! mIinAn8TvdY lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved mIinAn8TvdY as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 1yzPk-TN1+0 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 1yzPk-TN1+0 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! b9IYAN2rhlo lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved b9IYAN2rhlo as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! VFvyuEBlp+A lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved VFvyuEBlp+A as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! lgACxYBCgFw lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved lgACxYBCgFw as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! zGaiJod9Vic lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved zGaiJod9Vic as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! tlpXm5KLgqk lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved tlpXm5KLgqk as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 30Zxe35LtBg lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 30Zxe35LtBg as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! cmvr0mOCX2Q lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved cmvr0mOCX2Q as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! AGYntkLfXCc lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved AGYntkLfXCc as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! GXbL5lvDALs lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved GXbL5lvDALs as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! SX9IOde7tLo lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved SX9IOde7tLo as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! omVg1AdJGYQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved omVg1AdJGYQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! iaGdIXzjp80 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved iaGdIXzjp80 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 9NwVTF2r-To lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 9NwVTF2r-To as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ir5wHm8t4yQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ir5wHm8t4yQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! d2yn9y60yEU lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved d2yn9y60yEU as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! xYN7D+8y-KA lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved xYN7D+8y-KA as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! X17DF4uF7Co lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved X17DF4uF7Co as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! s+0pSDvfJkk lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved s+0pSDvfJkk as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 9GMinneGvk0 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 9GMinneGvk0 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! va+mHDV+Lwo lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved va+mHDV+Lwo as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! X8uNKyVpR1I lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved X8uNKyVpR1I as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! WuuUhuKOxwQ lib[libSceInvitationDialog_v1]mod[libSceInvitationDialog_v1.1]
+|E|: Linker: Stub resolved WuuUhuKOxwQ as sceInvitationDialogGetResultA (lib: libSceInvitationDialog, mod: libSceInvitationDialog) 
+|I|: Unresolved! XvA5KS56wcs lib[libSceInvitationDialog_v1]mod[libSceInvitationDialog_v1.1]
+|E|: Linker: Stub resolved XvA5KS56wcs as sceInvitationDialogInitialize (lib: libSceInvitationDialog, mod: libSceInvitationDialog) 
+|I|: Unresolved! sAxbHhAWMXM lib[libSceInvitationDialog_v1]mod[libSceInvitationDialog_v1.1]
+|E|: Linker: Stub resolved sAxbHhAWMXM as sceInvitationDialogOpenA (lib: libSceInvitationDialog, mod: libSceInvitationDialog) 
+|I|: Unresolved! B6HVJtDYxEE lib[libSceInvitationDialog_v1]mod[libSceInvitationDialog_v1.1]
+|E|: Linker: Stub resolved B6HVJtDYxEE as sceInvitationDialogTerminate (lib: libSceInvitationDialog, mod: libSceInvitationDialog) 
+|I|: Unresolved! 9+g9iOq+7kg lib[libSceInvitationDialog_v1]mod[libSceInvitationDialog_v1.1]
+|E|: Linker: Stub resolved 9+g9iOq+7kg as sceInvitationDialogUpdateStatus (lib: libSceInvitationDialog, mod: libSceInvitationDialog) 
+|I|: Unresolved! vT9xhqPO6+0 lib[libSceNpUtility_v1]mod[libSceNpUtility_v1.1]
+|E|: Linker: Stub resolved vT9xhqPO6+0 as sceNpLookupCreateTitleCtxA (lib: libSceNpUtility, mod: libSceNpUtility) 
+|I|: Unresolved! mtqDK9zkoIE lib[libSceNpUtility_v1]mod[libSceNpUtility_v1.1]
+|E|: Linker: Stub resolved mtqDK9zkoIE as sceNpLookupDeleteTitleCtx (lib: libSceNpUtility, mod: libSceNpUtility) 
+|I|: Unresolved! 7vjNQ6Z1op0 lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved 7vjNQ6Z1op0 as sceNpMatching2ContextStart (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! -f6M4caNe8k lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved -f6M4caNe8k as sceNpMatching2ContextStop (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! ajvzc8e2upo lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved ajvzc8e2upo as sceNpMatching2CreateContextA (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! V6KSpKv9XJE lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved V6KSpKv9XJE as sceNpMatching2CreateJoinRoomA (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! Nz-ZE7ur32I lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved Nz-ZE7ur32I as sceNpMatching2DestroyContext (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! dMQ+xGvTdqM lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved dMQ+xGvTdqM as sceNpMatching2GetRoomMemberDataExternalList (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! LhCPctIICxQ lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved LhCPctIICxQ as sceNpMatching2GetServerId (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! rJNPJqDCpiI lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved rJNPJqDCpiI as sceNpMatching2GetWorldInfoList (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! 10t3e5+JPnU lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved 10t3e5+JPnU as sceNpMatching2Initialize (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! gQ6cUriNpgs lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved gQ6cUriNpgs as sceNpMatching2JoinRoomA (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! BD6kfx442Do lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved BD6kfx442Do as sceNpMatching2LeaveRoom (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! fQQfP87I7hs lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved fQQfP87I7hs as sceNpMatching2RegisterContextCallback (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! p+2EnxmaAMM lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved p+2EnxmaAMM as sceNpMatching2RegisterRoomEventCallback (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! 0UMeWRGnZKA lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved 0UMeWRGnZKA as sceNpMatching2RegisterSignalingCallback (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! VqZX7POg2Mk lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved VqZX7POg2Mk as sceNpMatching2SearchRoom (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! q7GK98-nYSE lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved q7GK98-nYSE as sceNpMatching2SetRoomDataExternal (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! S9D8JSYIrjE lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved S9D8JSYIrjE as sceNpMatching2SetRoomDataInternal (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! nNeC3F8-g+4 lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved nNeC3F8-g+4 as sceNpMatching2SignalingGetConnectionInfoA (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! tHD5FPFXtu4 lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved tHD5FPFXtu4 as sceNpMatching2SignalingGetConnectionStatus (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! wUmwXZHaX1w lib[libSceNpMatching2_v1]mod[libSceNpMatching2_v0.0]
+|E|: Linker: Stub resolved wUmwXZHaX1w as sceNpMatching2SignalingGetPingInfo (lib: libSceNpMatching2, mod: libSceNpMatching2) 
+|I|: Unresolved! YlpnKm99h3Q lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved YlpnKm99h3Q as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 31Bh5lfPPXs lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 31Bh5lfPPXs as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 6esKXS17kNM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 6esKXS17kNM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! LLdnqVnnNBQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved LLdnqVnnNBQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! IcuECtP3L0E lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved IcuECtP3L0E as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! vbh-MWtjMh4 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved vbh-MWtjMh4 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! -bAjEe-hdCg lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved -bAjEe-hdCg as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! s0u30pOfi9Q lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved s0u30pOfi9Q as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! vycUuYWwilI lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved vycUuYWwilI as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! q-uIM1VNvwg lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved q-uIM1VNvwg as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! Kv8XXD7X7XQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved Kv8XXD7X7XQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! o2PhQ4mUZuE lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved o2PhQ4mUZuE as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 0+LtsbPVpt8 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 0+LtsbPVpt8 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! kyyI+gLshKQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved kyyI+gLshKQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! -p97-goGFC4 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved -p97-goGFC4 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 8b2o8RfK620 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 8b2o8RfK620 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! owxYieafJSM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved owxYieafJSM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 9G7fpmodu1Q lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 9G7fpmodu1Q as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! hks1Z-mbivM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved hks1Z-mbivM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! FbtukaCjFCM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved FbtukaCjFCM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! OxhIB8LB-PQ lib[libScePosix_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved OxhIB8LB-PQ as pthread_create (lib: libScePosix, mod: libkernel) 
+|I|: Unresolved! I88KChlynSs lib[libSceErrorDialog_v1]mod[libSceErrorDialog_v1.1]
+|E|: Linker: Stub resolved I88KChlynSs as sceErrorDialogInitialize (lib: libSceErrorDialog, mod: libSceErrorDialog) 
+|I|: Unresolved! M2ZF-ClLhgY lib[libSceErrorDialog_v1]mod[libSceErrorDialog_v1.1]
+|E|: Linker: Stub resolved M2ZF-ClLhgY as sceErrorDialogOpen (lib: libSceErrorDialog, mod: libSceErrorDialog) 
+|I|: Unresolved! 9XAxK2PMwk8 lib[libSceErrorDialog_v1]mod[libSceErrorDialog_v1.1]
+|E|: Linker: Stub resolved 9XAxK2PMwk8 as sceErrorDialogTerminate (lib: libSceErrorDialog, mod: libSceErrorDialog) 
+|I|: Unresolved! WWiGuh9XfgQ lib[libSceErrorDialog_v1]mod[libSceErrorDialog_v1.1]
+|E|: Linker: Stub resolved WWiGuh9XfgQ as sceErrorDialogUpdateStatus (lib: libSceErrorDialog, mod: libSceErrorDialog) 
+|I|: Unresolved! 8Z2Jc5GvGDI lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved 8Z2Jc5GvGDI as sceNpCheckNpAvailabilityA (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! r6MyYJkryz8 lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved r6MyYJkryz8 as sceNpCheckPlus (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! NU3ckGHMFXo lib[libSceNpCommerce_v1]mod[libSceNpCommerce_v1.1]
+|E|: Linker: Stub resolved NU3ckGHMFXo as sceNpCommerceDialogClose (lib: libSceNpCommerce, mod: libSceNpCommerce) 
+|I|: Unresolved! r42bWcQbtZY lib[libSceNpCommerce_v1]mod[libSceNpCommerce_v1.1]
+|E|: Linker: Stub resolved r42bWcQbtZY as sceNpCommerceDialogGetResult (lib: libSceNpCommerce, mod: libSceNpCommerce) 
+|I|: Unresolved! 0aR2aWmQal4 lib[libSceNpCommerce_v1]mod[libSceNpCommerce_v1.1]
+|E|: Linker: Stub resolved 0aR2aWmQal4 as sceNpCommerceDialogInitialize (lib: libSceNpCommerce, mod: libSceNpCommerce) 
+|I|: Unresolved! DfSCDRA3EjY lib[libSceNpCommerce_v1]mod[libSceNpCommerce_v1.1]
+|E|: Linker: Stub resolved DfSCDRA3EjY as sceNpCommerceDialogOpen (lib: libSceNpCommerce, mod: libSceNpCommerce) 
+|I|: Unresolved! LR5cwFMMCVE lib[libSceNpCommerce_v1]mod[libSceNpCommerce_v1.1]
+|E|: Linker: Stub resolved LR5cwFMMCVE as sceNpCommerceDialogUpdateStatus (lib: libSceNpCommerce, mod: libSceNpCommerce) 
+|I|: Unresolved! eiqMCt9UshI lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved eiqMCt9UshI as sceNpCreateAsyncRequest (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! S7QTn72PrDw lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved S7QTn72PrDw as sceNpDeleteRequest (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! p-o74CnoNzY lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved p-o74CnoNzY as sceNpGetNpId (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! eQH7nWPcAgc lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved eQH7nWPcAgc as sceNpGetState (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! wLaxchvEEnk lib[libSceNpUtility_v1]mod[libSceNpUtility_v1.1]
+|E|: Linker: Stub resolved wLaxchvEEnk as sceNpLookupDeleteRequest (lib: libSceNpUtility, mod: libSceNpUtility) 
+|I|: Unresolved! V4EVrruHuy8 lib[libSceNpUtility_v1]mod[libSceNpUtility_v1.1]
+|E|: Linker: Stub resolved V4EVrruHuy8 as sceNpLookupPollAsync (lib: libSceNpUtility, mod: libSceNpUtility) 
+|I|: Unresolved! Gaxrp3EWY-M lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved Gaxrp3EWY-M as sceNpNotifyPlusFeature (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! uqcPJLWL08M lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved uqcPJLWL08M as sceNpPollAsync (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! A2CQ3kgSopQ lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved A2CQ3kgSopQ as sceNpSetContentRestriction (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! Ec63y59l9tw lib[libSceNpManager_v1]mod[libSceNpManager_v1.1]
+|E|: Linker: Stub resolved Ec63y59l9tw as sceNpSetNpTitleId (lib: libSceNpManager, mod: libSceNpManager) 
+|I|: Unresolved! nsYoNRywwNg lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved nsYoNRywwNg as scePthreadAttrInit (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! -Wreprtu0Qs lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved -Wreprtu0Qs as scePthreadAttrSetdetachstate (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! ueega6v3GUw lib[libSceRtc_v1]mod[libSceRtc_v1.1]
+|E|: Linker: Stub resolved ueega6v3GUw as sceRtcSetTick (lib: libSceRtc, mod: libSceRtc) 
+|I|: Unresolved! yH17Q6NWtVg lib[libSceUserService_v1]mod[libSceUserService_v1.1]
+|E|: Linker: Stub resolved yH17Q6NWtVg as sceUserServiceGetEvent (lib: libSceUserService, mod: libSceUserService) 
+|I|: Unresolved! 1xxcMiGu2fo lib[libSceUserService_v1]mod[libSceUserService_v1.1]
+|E|: Linker: Stub resolved 1xxcMiGu2fo as sceUserServiceGetUserName (lib: libSceUserService, mod: libSceUserService) 
+|I|: Unresolved! XbkjbobZlCY lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved XbkjbobZlCY as sceNpTrophyCreateContext (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! q7U6tEAQf7c lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved q7U6tEAQf7c as sceNpTrophyCreateHandle (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! GNcF4oidY0Y lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved GNcF4oidY0Y as sceNpTrophyDestroyHandle (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! LHuSmO3SLd8 lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved LHuSmO3SLd8 as sceNpTrophyGetTrophyUnlockState (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! TJCAxto9SEU lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved TJCAxto9SEU as sceNpTrophyRegisterContext (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! 28xmRUFao68 lib[libSceNpTrophy_v1]mod[libSceNpTrophy_v1.1]
+|E|: Linker: Stub resolved 28xmRUFao68 as sceNpTrophyUnlockTrophy (lib: libSceNpTrophy, mod: libSceNpTrophy) 
+|I|: Unresolved! cBzNNtt2-GU lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved cBzNNtt2-GU as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 3uIwm8ckbVc lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 3uIwm8ckbVc as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 9IKooW79-AM lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 9IKooW79-AM as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! qc4pnagDrkQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved qc4pnagDrkQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! iJEDK60-2p4 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved iJEDK60-2p4 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! evQPB2JiOTo lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved evQPB2JiOTo as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! i51FQZY--Sw lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved i51FQZY--Sw as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! F8luFJ2FEPY lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved F8luFJ2FEPY as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! IGc6FTBp6jE lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved IGc6FTBp6jE as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 6ClJwE3AiGs lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 6ClJwE3AiGs as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 7ONbnvN2brw lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 7ONbnvN2brw as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! Foc0YVGG9s8 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved Foc0YVGG9s8 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! 6ZKsmn9DS0Y lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved 6ZKsmn9DS0Y as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! +9j+VbOE+xQ lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved +9j+VbOE+xQ as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! ZpzDxqY5Zcw lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved ZpzDxqY5Zcw as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! mXJwKDDXQ3s lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved mXJwKDDXQ3s as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! gpSEllb2338 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved gpSEllb2338 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! jmiUcZi+ONI lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved jmiUcZi+ONI as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! NhyOMK5FxAk lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved NhyOMK5FxAk as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! zuftnZ9BD9w lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved zuftnZ9BD9w as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! XaKJqdhjD88 lib[libSceNpToolkit2_v1]mod[libSceNpToolkit2_v0.0]
+|E|: Linker: Stub resolved XaKJqdhjD88 as Unknown !!! (lib: libSceNpToolkit2, mod: libSceNpToolkit2) 
+|I|: Unresolved! LYo3GhIlB38 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved LYo3GhIlB38 as sceLibcMspaceCalloc (lib: libc, mod: libc) 
+|I|: Unresolved! -hn1tcVHq5Q lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved -hn1tcVHq5Q as sceLibcMspaceCreate (lib: libc, mod: libc) 
+|I|: Unresolved! W6SiVSiCDtI lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved W6SiVSiCDtI as sceLibcMspaceDestroy (lib: libc, mod: libc) 
+|I|: Unresolved! Vla-Z+eXlxo lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved Vla-Z+eXlxo as sceLibcMspaceFree (lib: libc, mod: libc) 
+|I|: Unresolved! OJjm-QOIHlI lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved OJjm-QOIHlI as sceLibcMspaceMalloc (lib: libc, mod: libc) 
+|I|: Unresolved! mfHdJTIvhuo lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved mfHdJTIvhuo as sceLibcMspaceMallocStats (lib: libc, mod: libc) 
+|I|: Unresolved! k04jLXu3+Ic lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved k04jLXu3+Ic as sceLibcMspaceMallocStatsFast (lib: libc, mod: libc) 
+|I|: Unresolved! fEoW6BJsPt4 lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved fEoW6BJsPt4 as sceLibcMspaceMallocUsableSize (lib: libc, mod: libc) 
+|I|: Unresolved! iF1iQHzxBJU lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved iF1iQHzxBJU as sceLibcMspaceMemalign (lib: libc, mod: libc) 
+|I|: Unresolved! qWESlyXMI3E lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved qWESlyXMI3E as sceLibcMspacePosixMemalign (lib: libc, mod: libc) 
+|I|: Unresolved! gigoVHZvVPE lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved gigoVHZvVPE as sceLibcMspaceRealloc (lib: libc, mod: libc) 
+|I|: Unresolved! p6lrRW8-MLY lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved p6lrRW8-MLY as sceLibcMspaceReallocalign (lib: libc, mod: libc) 
+|I|: Unresolved! CkY0AVa-frg lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved CkY0AVa-frg as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! xENtRue8dpI lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved xENtRue8dpI as Unknown !!! (lib: libc, mod: libc) 
+|I|: Unresolved! KMcEa+rHsIo lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved KMcEa+rHsIo as sceAvPlayerAddSource (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! NkJwDzKmIlw lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved NkJwDzKmIlw as sceAvPlayerClose (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! ODJK2sn9w4A lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved ODJK2sn9w4A as sceAvPlayerEnableStream (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! Wnp1OVcrZgk lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved Wnp1OVcrZgk as sceAvPlayerGetAudioData (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! d8FcbzfAdQw lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved d8FcbzfAdQw as sceAvPlayerGetStreamInfo (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! JdksQu8pNdQ lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved JdksQu8pNdQ as sceAvPlayerGetVideoDataEx (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! aS66RI0gGgo lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved aS66RI0gGgo as sceAvPlayerInit (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! UbQoYawOsfY lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved UbQoYawOsfY as sceAvPlayerIsActive (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! HD1YKVU26-M lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved HD1YKVU26-M as sceAvPlayerPostInit (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! ET4Gr-Uu07s lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved ET4Gr-Uu07s as sceAvPlayerStart (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! ZC17w3vB5Lo lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved ZC17w3vB5Lo as sceAvPlayerStop (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! hdTyRzCXQeQ lib[libSceAvPlayer_v1]mod[libSceAvPlayer_v1.0]
+|E|: Linker: Stub resolved hdTyRzCXQeQ as sceAvPlayerStreamCount (lib: libSceAvPlayer, mod: libSceAvPlayer) 
+|I|: Unresolved! 62KCwEMmzcM lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 62KCwEMmzcM as scePthreadAttrDestroy (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! UTXzJbWhhTE lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved UTXzJbWhhTE as scePthreadAttrSetstacksize (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! 3kg7rT0NQIs lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved 3kg7rT0NQIs as scePthreadExit (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! rcrVFJsQWRY lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved rcrVFJsQWRY as scePthreadGetaffinity (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! onNY9Byn-W8 lib[libkernel_v1]mod[libkernel_v1.1]
+|E|: Linker: Stub resolved onNY9Byn-W8 as scePthreadJoin (lib: libkernel, mod: libkernel) 
+|I|: Unresolved! b0xyllnVY-I lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved b0xyllnVY-I as sceGnmAddEqEvent (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! +AFvOEXrKJk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved +AFvOEXrKJk as sceGnmSetEmbeddedVsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! b08AgtPlHPg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved b08AgtPlHPg as sceGnmAreSubmitsAllowed (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ihxrbsoSKWc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ihxrbsoSKWc as sceGnmBeginWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! FUHG8sQ3R58 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved FUHG8sQ3R58 as sceGnmSetEsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ffrNQOshows lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ffrNQOshows as sceGnmComputeWaitOnAddress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! EJapNl2+pgU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved EJapNl2+pgU as sceGnmComputeWaitSemaphore (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 5udAm+6boVg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 5udAm+6boVg as sceGnmCreateWorkloadStream (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! qpGITzPE+Zc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved qpGITzPE+Zc as sceGnmDebugHardwareStatus (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! jtkqXpAOY6w lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved jtkqXpAOY6w as sceGnmSetGsRingSizes (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! UJwNuMBcUAk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved UJwNuMBcUAk as sceGnmSetGsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! VJNjFtqiF5w lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved VJNjFtqiF5w as sceGnmSetHsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 5uFKckiJYRM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 5uFKckiJYRM as sceGnmSetPsShader350 (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! q-qhDxP67Hg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved q-qhDxP67Hg as sceGnmSetResourceRegistrationUserMemory (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! K3BKBBYKUSE lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved K3BKBBYKUSE as sceGnmSetResourceUserData (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! cFCp0NX8wf0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved cFCp0NX8wf0 as sceGnmSetVgtControl (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! gAhCn6UiU4Y lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved gAhCn6UiU4Y as sceGnmSetVsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! XiyzNZ9J4nQ lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved XiyzNZ9J4nQ as sceGnmSetWaveLimitMultipliers (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! +xuDhxlWRPg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved +xuDhxlWRPg as sceGnmSetupMipStatsReport (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! zwY0YV91TTI lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved zwY0YV91TTI as sceGnmSubmitCommandBuffers (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! xbxNatawohc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved xbxNatawohc as sceGnmSubmitAndFlipCommandBuffers (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Ga6r7H6Y0RI lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Ga6r7H6Y0RI as sceGnmSubmitAndFlipCommandBuffersForWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! f33OrruQYbM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved f33OrruQYbM as sceRazorIsLoaded (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! jRcI8VcgTz4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved jRcI8VcgTz4 as sceGnmSubmitCommandBuffersForWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! PVT+fuoS9gU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved PVT+fuoS9gU as sceGnmDeleteEqEvent (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! UtObDRQiGbs lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved UtObDRQiGbs as sceGnmDestroyWorkloadStream (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! bX5IbRvECXk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved bX5IbRvECXk as sceGnmDingDong (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! byXlqupd8cE lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved byXlqupd8cE as sceGnmDingDongForWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! HHo1BAljZO8 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved HHo1BAljZO8 as sceGnmDisableMipStatsReport (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 0BzLGljcwBo lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 0BzLGljcwBo as sceGnmDispatchDirect (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Z43vKp5k7r0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Z43vKp5k7r0 as sceGnmDispatchIndirect (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! wED4ZXCFJT0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved wED4ZXCFJT0 as sceGnmDispatchIndirectOnMec (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! nF6bFRUBRAU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved nF6bFRUBRAU as sceGnmDispatchInitDefaultHardwareState (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! HlTPoZ-oY7Y lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved HlTPoZ-oY7Y as sceGnmDrawIndex (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! GGsn7jMTxw4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved GGsn7jMTxw4 as sceGnmDrawIndexAuto (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ED9-Fjr8Ta4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ED9-Fjr8Ta4 as sceGnmDrawIndexIndirect (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! thbPcG7E7qk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved thbPcG7E7qk as sceGnmDrawIndexIndirectCountMulti (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! jHdPvIzlpKc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved jHdPvIzlpKc as sceGnmDrawIndexMultiInstanced (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! oYM+YzfCm2Y lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved oYM+YzfCm2Y as sceGnmDrawIndexOffset (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 4v+otIIdjqg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 4v+otIIdjqg as sceGnmDrawIndirect (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! cUCo8OvArrw lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved cUCo8OvArrw as sceGnmDrawIndirectCountMulti (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! yb2cRhagD1I lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved yb2cRhagD1I as sceGnmDrawInitDefaultHardwareState350 (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! im2ZuItabu4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved im2ZuItabu4 as sceGnmDrawInitToDefaultContextState400 (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! stDSYW2SBVM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved stDSYW2SBVM as sceGnmDrawOpaqueAuto (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! TLV4mswiZ4A lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved TLV4mswiZ4A as sceGnmDriverCaptureInProgress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ArSg-TGinhk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ArSg-TGinhk as sceGnmUnmapComputeQueue (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! yhFCnaz5daw lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved yhFCnaz5daw as sceGnmUnregisterAllResourcesForOwner (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! fhKwCVVj9nk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved fhKwCVVj9nk as sceGnmUnregisterOwnerAndResources (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! k8EXkhIP+lM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved k8EXkhIP+lM as sceGnmUnregisterResource (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! nLM2i2+65hA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved nLM2i2+65hA as sceGnmUpdateGsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! GNlx+y7xPdE lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved GNlx+y7xPdE as sceGnmUpdateHsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! R6z1xM3pW-w lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved R6z1xM3pW-w as sceGnmDriverTraceInProgress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! d88anrgNoKY lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved d88anrgNoKY as sceGnmDriverTriggerCapture (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! mLVL7N7BVBg lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved mLVL7N7BVBg as sceGnmUpdatePsShader350 (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Fa3x75OOLRA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Fa3x75OOLRA as sceGnmEndWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 4Mv9OXypBG8 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 4Mv9OXypBG8 as sceGnmFindResourcesPublic (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! V31V01UiScY lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved V31V01UiScY as sceGnmUpdateVsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! SXw4dZEkgpA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved SXw4dZEkgpA as sceGnmValidateDisableDiagnostics (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! BgM3t3LvcNk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved BgM3t3LvcNk as sceGnmValidateDisableDiagnostics2 (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! qGP74T5OWJc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved qGP74T5OWJc as sceGnmValidateDispatchCommandBuffers (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! UoYY0DWMC0U lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved UoYY0DWMC0U as sceGnmGetEqEventType (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! H7-fgvEutM0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved H7-fgvEutM0 as sceGnmGetEqTimeStamp (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! oL4hGI1PMpw lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved oL4hGI1PMpw as sceGnmGetGpuBlockStatus (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! tZCSL5ulnB4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved tZCSL5ulnB4 as sceGnmGetGpuInfoStatus (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! iFirFzgYsvw lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved iFirFzgYsvw as sceGnmGetLastWaitedAddress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! KnldROUkWJY lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved KnldROUkWJY as sceGnmGetNumTcaUnits (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! FFVZcCu3zWU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved FFVZcCu3zWU as sceGnmGetOffChipTessellationBufferSize (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! QJjPjlmPAL0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved QJjPjlmPAL0 as sceGnmGetOwnerName (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! dewXw5roLs0 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved dewXw5roLs0 as sceGnmGetPhysicalCounterFromVirtualized (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! fzJdEihTFV4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved fzJdEihTFV4 as sceGnmGetProtectionFaultTimeStamp (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 4PKnYXOhcx4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 4PKnYXOhcx4 as sceGnmGetResourceBaseAddressAndSizeInBytes (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! O0S96YnD04U lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved O0S96YnD04U as sceGnmGetResourceName (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! UBv7FkVfzcQ lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved UBv7FkVfzcQ as sceGnmGetResourceShaderGuid (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! bdqdvIkLPIU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved bdqdvIkLPIU as sceGnmGetResourceType (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! UoBuWAhKk7U lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved UoBuWAhKk7U as sceGnmGetResourceUserData (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! nEyFbYUloIM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved nEyFbYUloIM as sceGnmGetShaderProgramBaseAddress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! k7iGTvDQPLQ lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved k7iGTvDQPLQ as sceGnmGetShaderStatus (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ln33zjBrfjk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ln33zjBrfjk as sceGnmGetTheTessellationFactorRingBufferBaseAddress (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! hsZPf1lON7E lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved hsZPf1lON7E as sceGnmValidateDrawCommandBuffers (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! RX7XCNSaL6I lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved RX7XCNSaL6I as sceGnmValidateGetDiagnosticInfo (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 5SHGNwLXBV4 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 5SHGNwLXBV4 as sceGnmValidateGetDiagnostics (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! NfvOrNzy6sk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved NfvOrNzy6sk as sceGnmInsertDingDongMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 7qZVNgEu+SY lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 7qZVNgEu+SY as sceGnmInsertPopMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! aPIZJTXC+cU lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved aPIZJTXC+cU as sceGnmInsertPushColorMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! W1Etj-jlW7Y lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved W1Etj-jlW7Y as sceGnmInsertPushMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! aj3L-iaFmyk lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved aj3L-iaFmyk as sceGnmInsertSetColorMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! jiItzS6+22g lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved jiItzS6+22g as sceGnmInsertSetMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! URDgJcXhQOs lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved URDgJcXhQOs as sceGnmInsertThreadTraceMarker (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 1qXLHIpROPE lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 1qXLHIpROPE as sceGnmInsertWaitFlipDone (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! HzMN7ANqYEc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved HzMN7ANqYEc as sceGnmValidateGetVersion (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! jg33rEKLfVs lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved jg33rEKLfVs as sceGnmIsUserPaEnabled (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 26PM5Mzl8zc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 26PM5Mzl8zc as sceGnmLogicalCuIndexToPhysicalCuIndex (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! RU74kek-N0c lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved RU74kek-N0c as sceGnmLogicalCuMaskToPhysicalCuMask (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Kl0Z3LH07QI lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Kl0Z3LH07QI as sceGnmLogicalTcaUnitToPhysical (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 29oKvKXzEZo lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 29oKvKXzEZo as sceGnmMapComputeQueue (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! A+uGq+3KFtQ lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved A+uGq+3KFtQ as sceGnmMapComputeQueueWithPriority (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! rTIV11nMQuM lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved rTIV11nMQuM as sceGnmValidateOnSubmitEnabled (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! MBMa6EFu4Ko lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved MBMa6EFu4Ko as sceGnmValidateResetState (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Q7t4VEYLafI lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Q7t4VEYLafI as sceGnmValidationRegisterMemoryCheckCallback (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! u9YKpRRHe-M lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved u9YKpRRHe-M as sceRazorCaptureImmediate (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! vckdzbQ46SI lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved vckdzbQ46SI as sceGnmSetLsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 6IMbpR7nTzA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 6IMbpR7nTzA as sceGnmQueryResourceRegistrationUserMemoryRequirements (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 9Mv61HaMhfA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 9Mv61HaMhfA as sceGnmRegisterGdsResource (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! ZFqKFl23aMc lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved ZFqKFl23aMc as sceGnmRegisterOwner (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! nvEwfYAImTs lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved nvEwfYAImTs as sceGnmRegisterResource (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! gObODli-OH8 lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved gObODli-OH8 as sceGnmRequestFlipAndSubmitDone (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! 6YRHhh5mHCs lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved 6YRHhh5mHCs as sceGnmRequestFlipAndSubmitDoneForWorkload (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! f85orjx7qts lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved f85orjx7qts as sceGnmRequestMipStatsReportAndReset (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! MYRtYhojKdA lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved MYRtYhojKdA as sceGnmResetVgtControl (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! Kx-h-nWQJ8A lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved Kx-h-nWQJ8A as sceGnmSetCsShaderWithModifier (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! X9Omw9dwv5M lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
+|E|: Linker: Stub resolved X9Omw9dwv5M as sceGnmSetEmbeddedPsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
+|I|: Unresolved! dnaeGXbjP6E lib[libc_v1]mod[libc_v1.1]
+|E|: Linker: Stub resolved dnaeGXbjP6E as Unknown !!! (lib: libc, mod: libc) 
+|W|: dummy init_env()
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90029cfc6
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x9002995da
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90018cd88
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182dfc
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e27
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e55
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e80
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182eab
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182ee6
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f0d
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f2d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f4e
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f79
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9001766d3
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900176707
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90017673b
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90016f872
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90016f897
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900165acc
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015eab8
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015eae3
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dc59
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dc85
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dcb1
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dcdd
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd09
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd35
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd61
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd8d
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9000f2f1c
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900039602
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900039654
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
+|E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
+|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9000263cc
+|I|: sceKernelIsNeoMode()
+|I|: sceKernelGetDirectMemorySize()
+|I|: sceKernelAllocateDirectMemory()
+|I|: search_start = 0x0000000000000000
+|I|: search_end   = 0x0000000150000000
+|I|: len          = 0x0000000080000000
+|I|: alignment    = 0x0000000000200000
+|I|: memory_type  = SCE_KERNEL_WB_ONION
+|I|: physAddrOut  = 0x0000000000000000
+|I|: sceKernelMapDirectMemory()
+|I|: len               = 0x0000000080000000
+|I|: prot              = 0x00000033
+|I|: flags             = 0x00000000
+|I|: directMemoryStart = 0x0000000000000000
+|I|: alignment         = 0x0000000000200000
+|I|: in_addr           = 0x0000000000000000
+|I|: out_addr          = 0x0000001000200000
+|I|: sceKernelGetDirectMemorySize()
+|I|: sceKernelAllocateDirectMemory()
+|I|: search_start = 0x0000000000000000
+|I|: search_end   = 0x0000000150000000
+|I|: len          = 0x0000000040000000
+|I|: alignment    = 0x0000000000200000
+|I|: memory_type  = SCE_KERNEL_WC_GARLIC
+|I|: physAddrOut  = 0x0000000080000000
+|I|: sceKernelMapDirectMemory()
+|I|: len               = 0x0000000040000000
+|I|: prot              = 0x00000033
+|I|: flags             = 0x00000000
+|I|: directMemoryStart = 0x0000000080000000
+|I|: alignment         = 0x0000000000200000
+|I|: in_addr           = 0x0000000000000000
+|I|: out_addr          = 0x0000001080200000
+|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355d0
+|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355e4
+|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355f8
+|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x90033560c
+|E|: Stub: Unknown (nid: 1uJgoVq3bQU) called, returning zero to 0x9000f9a9e
+|C|: Exception EXCEPTION_ACCESS_VIOLATION (0xc0000005). |C|: Read violation at address 0x5e.
