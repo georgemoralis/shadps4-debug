@@ -822,102 +822,6 @@ p_align ...: 0x0000000000000010
 |I|: name 3kg7rT0NQIs function scePthreadExit library libkernel module libkernel bind 1 type 2 visibility 0
 |I|: name rcrVFJsQWRY function scePthreadGetaffinity library libkernel module libkernel bind 1 type 2 visibility 0
 |I|: name onNY9Byn-W8 function scePthreadJoin library libkernel module libkernel bind 1 type 2 visibility 0
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! lbB+UlZqVG0 lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved lbB+UlZqVG0 as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! uodLYyUip20 lib[libc_v1]mod[libc_v1.1]
@@ -1004,10 +908,6 @@ p_align ...: 0x0000000000000010
 |E|: Linker: Stub resolved MUjC4lbHrK4 as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! 1mecP7RgI2A lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved 1mecP7RgI2A as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! tsvEmnenz48 lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved tsvEmnenz48 as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! zr094EQ39Ww lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved zr094EQ39Ww as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! WkkeywLJcgU lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved WkkeywLJcgU as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! SRI6S9B+-a4 lib[libc_v1]mod[libc_v1.1]
@@ -1932,36 +1832,14 @@ p_align ...: 0x0000000000000010
 |E|: Linker: Stub resolved Kx-h-nWQJ8A as sceGnmSetCsShaderWithModifier (lib: libSceGnmDriver, mod: libSceGnmDriver) 
 |I|: Unresolved! X9Omw9dwv5M lib[libSceGnmDriver_v1]mod[libSceGnmDriver_v1.1]
 |E|: Linker: Stub resolved X9Omw9dwv5M as sceGnmSetEmbeddedPsShader (lib: libSceGnmDriver, mod: libSceGnmDriver) 
-|I|: Unresolved! dnaeGXbjP6E lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved dnaeGXbjP6E as Unknown !!! (lib: libc, mod: libc) 
 |W|: dummy init_env()
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90029cfc6
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x9002995da
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90018cd88
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182dfc
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e27
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e55
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182e80
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182eab
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182ee6
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f0d
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f2d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f4e
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900182f79
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
@@ -1986,61 +1864,30 @@ p_align ...: 0x0000000000000010
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9001766d3
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900176707
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90017673b
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90016f872
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90016f897
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900165acc
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015eab8
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015eae3
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dc59
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dc85
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dcb1
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dcdd
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd09
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd35
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd61
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x90015dd8d
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9000f2f1c
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900039602
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900039654
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x900299f3d
 |E|: Stub: Unknown (nid: Unknown) called, returning zero to 0x90029965a
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x900000074
-|E|: Stub: Unknown (nid: tsvEmnenz48) called, returning zero to 0x9000263cc
 |I|: sceKernelIsNeoMode()
 |I|: sceKernelGetDirectMemorySize()
 |I|: sceKernelAllocateDirectMemory()
