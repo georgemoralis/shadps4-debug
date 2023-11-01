@@ -830,14 +830,10 @@ p_align ...: 0x0000000000000010
 |E|: Linker: Stub resolved Qazy8LmXTvw as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! AV6ipCNa4Rw lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved AV6ipCNa4Rw as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! H8AprKeZtNg lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved H8AprKeZtNg as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! lKEN2IebgJ0 lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved lKEN2IebgJ0 as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! 1TDo-ImqkJc lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved 1TDo-ImqkJc as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! 2sWzhYqFH4E lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved 2sWzhYqFH4E as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! 9BcDykPmo1I lib[libkernel_v1]mod[libkernel_v1.1]
 |E|: Linker: Stub resolved 9BcDykPmo1I as __error (lib: libkernel, mod: libkernel) 
 |I|: Unresolved! uodLYyUip20 lib[libc_v1]mod[libc_v1.1]
@@ -894,8 +890,6 @@ p_align ...: 0x0000000000000010
 |E|: Linker: Stub resolved wLlFkwG9UcQ as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! L1SBTkC+Cvw lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved L1SBTkC+Cvw as Unknown !!! (lib: libc, mod: libc) 
-|I|: Unresolved! fffwELXNVFA lib[libc_v1]mod[libc_v1.1]
-|E|: Linker: Stub resolved fffwELXNVFA as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! aZK8lNei-Qw lib[libc_v1]mod[libc_v1.1]
 |E|: Linker: Stub resolved aZK8lNei-Qw as Unknown !!! (lib: libc, mod: libc) 
 |I|: Unresolved! lKEN2IebgJ0 lib[libc_v1]mod[libc_v1.1]
@@ -1921,9 +1915,5 @@ p_align ...: 0x0000000000000010
 |I|: alignment         = 0x0000000000200000
 |I|: in_addr           = 0x0000000000000000
 |I|: out_addr          = 0x0000001080200000
-|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355d0
-|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355e4
-|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x9003355f8
-|E|: Stub: Unknown (nid: fffwELXNVFA) called, returning zero to 0x90033560c
 |E|: Stub: Unknown (nid: 1uJgoVq3bQU) called, returning zero to 0x9000f9a9e
 |C|: Exception EXCEPTION_ACCESS_VIOLATION (0xc0000005). |C|: Read violation at address 0x5e.
