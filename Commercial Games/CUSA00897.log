@@ -1,0 +1,1167 @@
+[Loader] <Info> emulator.cpp:117 Run: Starting shadps4 emulator v0.8.1 WIP 
+[Loader] <Info> emulator.cpp:118 Run: Revision 3b7c36e1ba435e96e16c81d11b5c8a526513ff21
+[Loader] <Info> emulator.cpp:119 Run: Branch main
+[Loader] <Info> emulator.cpp:120 Run: Description 3b7c36e
+[Loader] <Info> emulator.cpp:121 Run: Remote https://github.com/shadps4-emu/shadPS4
+[Config] <Info> emulator.cpp:123 Run: General LogType: sync
+[Config] <Info> emulator.cpp:124 Run: General isNeo: false
+[Config] <Info> emulator.cpp:125 Run: GPU isNullGpu: false
+[Config] <Info> emulator.cpp:126 Run: GPU shouldDumpShaders: false
+[Config] <Info> emulator.cpp:127 Run: GPU vblankDivider: 1
+[Config] <Info> emulator.cpp:128 Run: Vulkan gpuId: -1
+[Config] <Info> emulator.cpp:129 Run: Vulkan vkValidation: false
+[Config] <Info> emulator.cpp:130 Run: Vulkan vkValidationSync: false
+[Config] <Info> emulator.cpp:131 Run: Vulkan vkValidationGpu: false
+[Config] <Info> emulator.cpp:132 Run: Vulkan crashDiagnostics: false
+[Config] <Info> emulator.cpp:133 Run: Vulkan hostMarkers: false
+[Config] <Info> emulator.cpp:134 Run: Vulkan guestMarkers: false
+[Config] <Info> emulator.cpp:135 Run: Vulkan rdocEnable: false
+[Loader] <Info> emulator.cpp:138 Run: Game id: CUSA00897 Title: inFAMOUS™ First Light
+[Loader] <Info> emulator.cpp:139 Run: Fw: 0x2700000 App Version: 01.00
+[Kernel.Vmm] <Info> address_space.cpp:93 Impl: System managed virtual memory region: 0x143870000 - 0x7ffffbfff
+[Kernel.Vmm] <Info> address_space.cpp:96 Impl: System reserved virtual memory region: 0x7ffffc000 - 0xfffffffff
+[Kernel.Vmm] <Info> address_space.cpp:98 Impl: User virtual memory region: 0x1000000000 - 0x10fc346ffff
+[Kernel.Vmm] <Info> memory.cpp:32 MemoryManager: Usable memory address space: 1081_GB
+[Input] <Info> sdl_window.cpp:108 Init: No gamepad found!
+[Lib.Kernel] <Info> libs.cpp:67 InitHLELibs: Initializing HLE libraries
+[Lib.GnmDriver] <Info> gnmdriver.cpp:2803 RegisterlibSceGnmDriver: Initializing presenter
+[Render.Vulkan] <Info> vk_platform.cpp:227 CreateInstance: Creating vulkan instance
+[Render.Vulkan] <Info> vk_platform.cpp:183 operator(): Candidate instance extension VK_EXT_layer_settings is not available
+[Render.Vulkan] <Info> vk_platform.cpp:280 CreateInstance: Enabled instance extensions: VK_KHR_win32_surface, VK_KHR_surface, VK_EXT_debug_utils
+[Render.Vulkan] <Info> vk_platform.cpp:281 CreateInstance: Enabled instance layers: 
+[Render.Vulkan] <Info> vk_instance.cpp:104 Instance: Found 1 physical devices
+[Render.Vulkan] <Info> vk_instance.cpp:533 CollectDeviceParameters: GPU_Vendor: NVIDIA
+[Render.Vulkan] <Info> vk_instance.cpp:534 CollectDeviceParameters: GPU_Model: NVIDIA GeForce RTX 3060
+[Render.Vulkan] <Info> vk_instance.cpp:535 CollectDeviceParameters: GPU_Vulkan_Driver: NVIDIA 572.83.0.0
+[Render.Vulkan] <Info> vk_instance.cpp:536 CollectDeviceParameters: GPU_Vulkan_Version: 1.4.303
+[Render.Vulkan] <Info> vk_instance.cpp:537 CollectDeviceParameters: GPU_Vulkan_Extensions: VK_KHR_16bit_storage, VK_KHR_8bit_storage, VK_KHR_acceleration_structure, VK_KHR_bind_memory2, VK_KHR_buffer_device_address, VK_KHR_calibrated_timestamps, VK_KHR_compute_shader_derivatives, VK_KHR_cooperative_matrix, VK_KHR_copy_commands2, VK_KHR_create_renderpass2, VK_KHR_dedicated_allocation, VK_KHR_deferred_host_operations, VK_KHR_depth_stencil_resolve, VK_KHR_descriptor_update_template, VK_KHR_device_group, VK_KHR_draw_indirect_count, VK_KHR_driver_properties, VK_KHR_dynamic_rendering, VK_KHR_dynamic_rendering_local_read, VK_KHR_external_fence, VK_KHR_external_fence_win32, VK_KHR_external_memory, VK_KHR_external_memory_win32, VK_KHR_external_semaphore, VK_KHR_external_semaphore_win32, VK_KHR_format_feature_flags2, VK_KHR_fragment_shader_barycentric, VK_KHR_fragment_shading_rate, VK_KHR_get_memory_requirements2, VK_KHR_global_priority, VK_KHR_image_format_list, VK_KHR_imageless_framebuffer, VK_KHR_index_type_uint8, VK_KHR_line_rasterization, VK_KHR_load_store_op_none, VK_KHR_maintenance1, VK_KHR_maintenance2, VK_KHR_maintenance3, VK_KHR_maintenance4, VK_KHR_maintenance5, VK_KHR_maintenance6, VK_KHR_maintenance7, VK_KHR_map_memory2, VK_KHR_multiview, VK_KHR_pipeline_binary, VK_KHR_pipeline_executable_properties, VK_KHR_pipeline_library, VK_KHR_present_id, VK_KHR_present_wait, VK_KHR_push_descriptor, VK_KHR_ray_query, VK_KHR_ray_tracing_maintenance1, VK_KHR_ray_tracing_pipeline, VK_KHR_ray_tracing_position_fetch, VK_KHR_relaxed_block_layout, VK_KHR_sampler_mirror_clamp_to_edge, VK_KHR_sampler_ycbcr_conversion, VK_KHR_separate_depth_stencil_layouts, VK_KHR_shader_atomic_int64, VK_KHR_shader_clock, VK_KHR_shader_draw_parameters, VK_KHR_shader_expect_assume, VK_KHR_shader_float16_int8, VK_KHR_shader_float_controls, VK_KHR_shader_float_controls2, VK_KHR_shader_integer_dot_product, VK_KHR_shader_maximal_reconvergence, VK_KHR_shader_non_semantic_info, VK_KHR_shader_quad_control, VK_KHR_shader_relaxed_extended_instruction, VK_KHR_shader_subgroup_extended_types, VK_KHR_shader_subgroup_rotate, VK_KHR_shader_subgroup_uniform_control_flow, VK_KHR_shader_terminate_invocation, VK_KHR_spirv_1_4, VK_KHR_storage_buffer_storage_class, VK_KHR_swapchain, VK_KHR_swapchain_mutable_format, VK_KHR_synchronization2, VK_KHR_timeline_semaphore, VK_KHR_uniform_buffer_standard_layout, VK_KHR_variable_pointers, VK_KHR_vertex_attribute_divisor, VK_KHR_video_decode_av1, VK_KHR_video_decode_h264, VK_KHR_video_decode_h265, VK_KHR_video_decode_queue, VK_KHR_video_encode_h264, VK_KHR_video_encode_h265, VK_KHR_video_encode_queue, VK_KHR_video_maintenance1, VK_KHR_video_queue, VK_KHR_vulkan_memory_model, VK_KHR_win32_keyed_mutex, VK_KHR_workgroup_memory_explicit_layout, VK_KHR_zero_initialize_workgroup_memory, VK_EXT_4444_formats, VK_EXT_attachment_feedback_loop_dynamic_state, VK_EXT_attachment_feedback_loop_layout, VK_EXT_blend_operation_advanced, VK_EXT_border_color_swizzle, VK_EXT_buffer_device_address, VK_EXT_calibrated_timestamps, VK_EXT_color_write_enable, VK_EXT_conditional_rendering, VK_EXT_conservative_rasterization, VK_EXT_custom_border_color, VK_EXT_depth_bias_control, VK_EXT_depth_clamp_control, VK_EXT_depth_clamp_zero_one, VK_EXT_depth_clip_control, VK_EXT_depth_clip_enable, VK_EXT_depth_range_unrestricted, VK_EXT_descriptor_buffer, VK_EXT_descriptor_indexing, VK_EXT_device_fault, VK_EXT_device_generated_commands, VK_EXT_discard_rectangles, VK_EXT_dynamic_rendering_unused_attachments, VK_EXT_extended_dynamic_state, VK_EXT_extended_dynamic_state2, VK_EXT_extended_dynamic_state3, VK_EXT_external_memory_host, VK_EXT_fragment_shader_interlock, VK_EXT_full_screen_exclusive, VK_EXT_global_priority, VK_EXT_global_priority_query, VK_EXT_graphics_pipeline_library, VK_EXT_hdr_metadata, VK_EXT_host_image_copy, VK_EXT_host_query_reset, VK_EXT_image_2d_view_of_3d, VK_EXT_image_robustness, VK_EXT_image_sliced_view_of_3d, VK_EXT_image_view_min_lod, VK_EXT_index_type_uint8, VK_EXT_inline_uniform_block, VK_EXT_legacy_vertex_attributes, VK_EXT_line_rasterization, VK_EXT_load_store_op_none, VK_EXT_memory_budget, VK_EXT_memory_priority, VK_EXT_mesh_shader, VK_EXT_multi_draw, VK_EXT_mutable_descriptor_type, VK_EXT_nested_command_buffer, VK_EXT_non_seamless_cube_map, VK_EXT_opacity_micromap, VK_EXT_pageable_device_local_memory, VK_EXT_pci_bus_info, VK_EXT_pipeline_creation_cache_control, VK_EXT_pipeline_creation_feedback, VK_EXT_pipeline_library_group_handles, VK_EXT_pipeline_robustness, VK_EXT_post_depth_coverage, VK_EXT_primitive_topology_list_restart, VK_EXT_primitives_generated_query, VK_EXT_private_data, VK_EXT_provoking_vertex, VK_EXT_queue_family_foreign, VK_EXT_robustness2, VK_EXT_sample_locations, VK_EXT_sampler_filter_minmax, VK_EXT_scalar_block_layout, VK_EXT_separate_stencil_usage, VK_EXT_shader_atomic_float, VK_EXT_shader_demote_to_helper_invocation, VK_EXT_shader_image_atomic_int64, VK_EXT_shader_module_identifier, VK_EXT_shader_object, VK_EXT_shader_replicated_composites, VK_EXT_shader_subgroup_ballot, VK_EXT_shader_subgroup_vote, VK_EXT_shader_viewport_index_layer, VK_EXT_subgroup_size_control, VK_EXT_swapchain_maintenance1, VK_EXT_texel_buffer_alignment, VK_EXT_tooling_info, VK_EXT_transform_feedback, VK_EXT_vertex_attribute_divisor, VK_EXT_vertex_input_dynamic_state, VK_EXT_ycbcr_2plane_444_formats, VK_EXT_ycbcr_image_arrays, VK_NV_acquire_winrt_display, VK_NV_clip_space_w_scaling, VK_NV_cluster_acceleration_structure, VK_NV_compute_shader_derivatives, VK_NV_cooperative_matrix, VK_NV_cooperative_vector, VK_NV_copy_memory_indirect, VK_NV_corner_sampled_image, VK_NV_coverage_reduction_mode, VK_NV_cuda_kernel_launch, VK_NV_dedicated_allocation, VK_NV_dedicated_allocation_image_aliasing, VK_NV_descriptor_pool_overallocation, VK_NV_device_diagnostic_checkpoints, VK_NV_device_diagnostics_config, VK_NV_device_generated_commands, VK_NV_device_generated_commands_compute, VK_NV_external_memory, VK_NV_external_memory_win32, VK_NV_fill_rectangle, VK_NV_fragment_coverage_to_color, VK_NV_fragment_shader_barycentric, VK_NV_fragment_shading_rate_enums, VK_NV_framebuffer_mixed_samples, VK_NV_geometry_shader_passthrough, VK_NV_inherited_viewport_scissor, VK_NV_linear_color_attachment, VK_NV_low_latency, VK_NV_low_latency2, VK_NV_memory_decompression, VK_NV_mesh_shader, VK_NV_optical_flow, VK_NV_partitioned_acceleration_structure, VK_NV_present_metering, VK_NV_raw_access_chains, VK_NV_ray_tracing, VK_NV_ray_tracing_invocation_reorder, VK_NV_ray_tracing_motion_blur, VK_NV_representative_fragment_test, VK_NV_sample_mask_override_coverage, VK_NV_scissor_exclusive, VK_NV_shader_atomic_float16_vector, VK_NV_shader_image_footprint, VK_NV_shader_sm_builtins, VK_NV_shader_subgroup_partitioned, VK_NV_shading_rate_image, VK_NV_viewport_array2, VK_NV_viewport_swizzle, VK_NV_win32_keyed_mutex, VK_NVX_binary_import, VK_NVX_image_view_handle, VK_NVX_multiview_per_view_attributes, VK_AMD_buffer_marker, VK_GOOGLE_user_type
+[Render.Vulkan] <Info> vk_instance.cpp:223 CreateDevice: Physical device subgroup size 32
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_KHR_swapchain
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_KHR_push_descriptor
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_depth_range_unrestricted
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_extended_dynamic_state3
+[Render.Vulkan] <Info> vk_instance.cpp:257 CreateDevice: - extendedDynamicState3ColorWriteMask: 1
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_robustness2
+[Render.Vulkan] <Info> vk_instance.cpp:263 CreateDevice: - robustBufferAccess2: 1
+[Render.Vulkan] <Info> vk_instance.cpp:264 CreateDevice: - nullDescriptor: 1
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_custom_border_color
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_depth_clip_control
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_vertex_input_dynamic_state
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_primitive_topology_list_restart
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_KHR_fragment_shader_barycentric
+[Render.Vulkan] <Info> vk_instance.cpp:237 operator(): Enabling extension: VK_EXT_legacy_vertex_attributes
+[Render.Vulkan] <Warning> vk_instance.cpp:242 operator(): Extension VK_EXT_shader_stencil_export unavailable.
+[Render.Vulkan] <Warning> vk_instance.cpp:242 operator(): Extension VK_AMD_shader_image_load_store_lod unavailable.
+[Render.Vulkan] <Warning> vk_instance.cpp:242 operator(): Extension VK_AMD_gcn_shader unavailable.
+[Render.Vulkan] <Warning> vk_instance.cpp:242 operator(): Extension VK_AMD_shader_trinary_minmax unavailable.
+[Render.Vulkan] <Warning> vk_instance.cpp:242 operator(): Extension VK_EXT_shader_atomic_float2 unavailable.
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=1, number_format=9 is not fully supported (vk_format=R8Srgb, missing features={ ColorAttachment })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=3, number_format=9 is not fully supported (vk_format=R8G8Srgb, missing features={ SampledImage | ColorAttachment | TransferSrc | TransferDst })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=9, number_format=1 is not fully supported (vk_format=A2B10G10R10SnormPack32, missing features={ SampledImage | StorageImage | ColorAttachment | TransferSrc | TransferDst | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=9, number_format=5 is not fully supported (vk_format=A2B10G10R10SintPack32, missing features={ SampledImage | StorageImage | ColorAttachment | TransferSrc | TransferDst | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=13, number_format=4 is not fully supported (vk_format=R32G32B32Uint, missing features={ SampledImage | TransferSrc | TransferDst })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=13, number_format=5 is not fully supported (vk_format=R32G32B32Sint, missing features={ SampledImage | TransferSrc | TransferDst })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=13, number_format=7 is not fully supported (vk_format=R32G32B32Sfloat, missing features={ SampledImage | TransferSrc | TransferDst })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=16, number_format=0 is not fully supported (vk_format=B5G6R5UnormPack16, missing features={ StorageImage | ColorAttachment | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=17, number_format=0 is not fully supported (vk_format=A1R5G5B5UnormPack16, missing features={ StorageImage | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=18, number_format=0 is not fully supported (vk_format=R5G5B5A1UnormPack16, missing features={ StorageImage | ColorAttachment | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:167 Instance: Surface format data_format=19, number_format=0 is not fully supported (vk_format=B4G4R4A4UnormPack16, missing features={ StorageImage | ColorAttachment | StorageReadWithoutFormat | StorageWriteWithoutFormat })
+[Render.Vulkan] <Warning> vk_instance.cpp:177 Instance: Depth format z_format=1, stencil_format=1 is not fully supported (vk_format=D16UnormS8Uint, missing features={ DepthStencilAttachment })
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module eboot.bin to 0x800000000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x0000000800000000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000008238000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000008238000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000800000000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 14394224
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 14401536
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000800dbc000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 901736
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 917504
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000800e9c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 453088
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 121225216
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type Interpreter Path
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x800e9c060
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 48
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Comment
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x00000008006ffd70
+[Loader] <Error> memory_patcher.cpp:229 OnGameLoaded: No patch file found for the current serial in repository GoldHEN
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0018000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000d000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0008000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0009000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0019000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0013000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000c000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0003000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001f000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0011000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0007000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000a000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000b000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0015000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0016000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001b000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0017000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001d000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001e000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0010000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001a000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x001c000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0005000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0006000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0004000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0014000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000f000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x000e000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0021000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0012000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0020000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceNgs2.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceNgs2.sprx to 0x808a38000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x0000000808a38000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000064000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000064000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000808a38000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 323432
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 327680
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000808a88000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 1216
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000808a8c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 1648
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 65536
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x808a38000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x0000000808a38000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0003000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceUlt.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceUlt.sprx to 0x80929c000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080929c000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000040000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000040000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080929c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 190476
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 196608
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x00000008092cc000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 568
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x00000008092d0000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 2160
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 49152
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x8092d0020
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 16
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080929c000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0003000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceJson.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceJson.sprx to 0x809adc000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x0000000809adc000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000014000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000014000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000809adc000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 38748
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 49152
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000809ae8000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 668
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x0000000809aec000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 112
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x809adc000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x0000000809adc000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceJson2.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceJson2.sprx to 0x80a2f0000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080a2f0000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x000000000001c000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x000000000001c000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080a2f0000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 76536
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 81920
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080a304000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 368
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080a308000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 128
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80a2f0000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080a2f0000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceLibcInternal.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceLibcInternal.sprx to 0x80ab0c000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080ab0c000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000158000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000158000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080ab0c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 1247024
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 1261568
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080ac40000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 17184
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 32768
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080ac48000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 40960
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 114688
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80ac4e900
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 1376
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080ab0c000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceRtc.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceRtc.sprx to 0x80b464000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080b464000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000010000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000010000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080b464000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 18688
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 32768
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080b46c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 168
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080b470000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 88
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80b464000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080b464000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceCesCs.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceCesCs.sprx to 0x80bc74000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080bc74000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x000000000008c000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x000000000008c000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080bc74000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 525576
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 540672
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080bcf8000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 3920
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080bcfc000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 88
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80bc74000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080bc74000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceFont.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceFont.sprx to 0x80c500000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080c500000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000050000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000050000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080c500000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 218736
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 229376
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080c538000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 328
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080c53c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 43968
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 81920
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80c500000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080c500000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceFontFt.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceFontFt.sprx to 0x80cd50000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080cd50000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000024000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000024000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080cd50000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 94032
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 98304
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080cd68000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 2456
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080cd6c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 2512
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 32768
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80cd50000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080cd50000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0003000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:329 LoadSystemModules: Loading C:\emus\emus\shadps4qt-0.8.1-1\user\sys_modules\libSceFreeTypeOt.sprx
+[Loader] <Info> elf.cpp:237 IsSelfFile: Not a SELF file. Magic mismatch current = 0x464c457f expected = 0x1d3d154f
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceFreeTypeOt.sprx to 0x80d574000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080d574000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x0000000000074000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x0000000000074000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080d574000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 398116
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 409600
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080d5d8000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 6344
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080d5dc000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 128
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 49152
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80d574000
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 0
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080d574000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0005000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:258 operator(): Loading D:/ps4/gamesNew/CUSA00897\sce_module\libc.prx
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libc.prx to 0x80dde8000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080dde8000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x00000000000f8000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x00000000000f8000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080dde8000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 873132
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 884736
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080dec0000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 15888
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080dec4000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 7992
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 114688
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80dec4020
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 1168
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Comment
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080dde8000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Loader] <Info> emulator.cpp:258 operator(): Loading D:/ps4/gamesNew/CUSA00897\sce_module\libSceFios2.prx
+[Core.Linker] <Info> module.cpp:117 LoadModuleToMemory: Loading module libSceFios2.prx to 0x80e6e0000
+[Core.Linker] <Info> module.cpp:125 LoadModuleToMemory: ======== Load Module to Memory ========
+[Core.Linker] <Info> module.cpp:126 LoadModuleToMemory: base_virtual_addr ......: 0x000000080e6e0000
+[Core.Linker] <Info> module.cpp:127 LoadModuleToMemory: base_size ..............: 0x000000000018c000
+[Core.Linker] <Info> module.cpp:128 LoadModuleToMemory: aligned_base_size ......: 0x000000000018c000
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [0] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080e6e0000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 371696
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 376832
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R_X)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [1] type = SCE Read-Only After Relocation
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080e73c000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 1728
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 16384
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (R__)
+[Core.Linker] <Info> module.cpp:159 LoadModuleToMemory: program header = [2] type = Loadable
+[Core.Linker] <Info> module.cpp:160 LoadModuleToMemory: segment_addr ..........: 0x000000080e740000
+[Core.Linker] <Info> module.cpp:161 LoadModuleToMemory: segment_file_size .....: 54480
+[Core.Linker] <Info> module.cpp:162 LoadModuleToMemory: segment_memory_size ...: 1228800
+[Core.Linker] <Info> module.cpp:163 LoadModuleToMemory: segment_mode ..........: (RW_)
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Module Parameters
+[Core.Linker] <Info> module.cpp:198 LoadModuleToMemory: TLS virtual address = 0x80e740020
+[Core.Linker] <Info> module.cpp:199 LoadModuleToMemory: TLS image size      = 64
+[Core.Linker] <Error> module.cpp:221 LoadModuleToMemory: Unimplemented type SCE Library Version
+[Core.Linker] <Info> module.cpp:226 LoadModuleToMemory: program entry addr ..........: 0x000000080e6e0000
+[Core.Linker] <Warning> module.cpp:331 LoadDynamicInfo: DT_FLAGS is NOT 0x04 should check!
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x000000000000000e
+[Core.Linker] <Info> module.cpp:395 LoadDynamicInfo: unsupported dynamic tag ..........: 0x0000000061000017
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0000000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0003000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0001000000000009
+[Core.Linker] <Info> module.cpp:369 LoadDynamicInfo: unsupported DT_SCE_IMPORT_LIB_ATTR value = ......: 0x0002000000000009
+[Core.Linker] <Info> module.cpp:362 LoadDynamicInfo: DT_SCE_FINGERPRINT value = 0x0000000000000000
+[Core.Linker] <Info> module.cpp:385 LoadDynamicInfo: unsupported DT_SCE_MODULE_ATTR value = ..........: 0x0000000000000000
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 1n-dGukBgnY as sceNpTusCreateNpTitleCtxA (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3bh2aBvvmvM as sceNpTusCreateRequest (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved H3uq7x0sZOI as sceNpTusDeleteNpTitleCtx (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved CcIH40dYS88 as sceNpTusDeleteRequest (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 2BnPSY1Oxd8 as sceNpTusGetMultiSlotVariableAAsync (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved eGunerNP9n0 as sceNpTusGetMultiUserVariableAAsync (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved t7b6dmpQNiI as sceNpTusPollAsync (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ypMObSwfcns as sceNpTusSetMultiSlotVariableAAsync (lib: libSceNpTus, mod: libSceNpTus)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved rcrVFJsQWRY as scePthreadGetaffinity (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 7Xl257M4VNI as pthread_equal (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved +2thxYZ4syk as environ (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved nQVWJEGHObc as _sigintr (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kbw4UHHSYy0 as __pthread_cxa_finalize (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved djxxOmW6-aw as __progname (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved HoLVWNanBBc as getpid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved +g+UP8Pyfmo as sceKernelGetProcessType (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved VADc3MNQ3cM as signal (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved bt0POEUZddE as sceKernelGetSanitizerMallocReplace (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3eqs37G74-s as pthread_getthreadid_np (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Wl2o5hOVZdw as sceKernelPrintBacktraceWithModuleInfo (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved -YTW+qXc3CQ as sceKernelInternalMemoryGetModuleSegmentInfo (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kc+LEEIYakc as sceKernelMapNamedSystemFlexibleMemory (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3k6kx-zOOSQ as sceKernelMlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved jh+8XiK4LeE as sceKernelIsAddressSanitizerEnabled (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved NhpspxdjEKU as _nanosleep (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved VAzswvTOCzI as unlink (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 2VRU7xiqLO8 as setcontext (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Nd-u09VFSCA as sigdelset (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved +F7C-hdk7+E as sigemptyset (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved UDCI-WazohQ as _sigaction (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 9zpLsLESzTs as _sigsuspend (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved JUimFtKe0Kc as sigaddset (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved JnNl8Xr-z4Y as sigismember (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved hPWDGx8ioXQ as setitimer (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved cjt-4ySmYTs as fork (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved edJoqV2FIWs as setsid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 6mMQ1MSPW-Q as chdir (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved W8f1adVl+48 as _dup2 (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved MhC53TKmjVA as sysctlbyname (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Qsxbb+aty0U as __getcwd (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved A0O5kF5x4LQ as _fstat (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved bGVEgWXy6dg as _openat (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved DRGXpDDh8Ng as lstat (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved t6haf4s-eE0 as fstatat (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved DFmMT80xcNI as sysctl (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved t0fXUzq61Z4 as _fcntl (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 17Mfe1B3X6U as _fstatfs (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 9jJTRrWCWK0 as vfork (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved -3nj+K1elI0 as _execve (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ScfDTOqLOMw as _execvpe (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 8fryvN6BDtY as setpgid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved yawdym+zDvw as sched_setparam (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved puT82CSQzDE as sched_setscheduler (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved AfuS23bX6kg as getgid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 4oKwKmeOKjM as setegid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kg4x8Prhfxw as getuid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved HTxb6gmexa0 as seteuid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved cZq1zIzFN7s as _fpathconf (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ngZnQWyUvGI as statfs (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved oc98+zOImus as pathconf (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved GDuV00CHrUg as utimes (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 4pYihoPggn8 as __inet_ntop (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kbw4UHHSYy0 as __pthread_cxa_finalize (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Fjc4-n1+y2g as __elf_phdr_match_addr (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved pd02UI9TbOA as readlink (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Pd7KtJ1gybk as link (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ayrtszI7GBg as truncate (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved z0dtnPxYgtg as chmod (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved F4Kib3Mb0wI as sceKernelGetSanitizerNewReplace (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved crb5j7mkk1c as _is_signal_return (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved hHlZQUnlxSM as getrusage (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved D4yla3vx4tY as sceKernelError (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 7NwggrWJ5cA as __sys_regmgr_call (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ChCOChPU-YM as sceKernelSettimeofday (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved D4yla3vx4tY as sceKernelError (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved d7nUj1LOdDU as clock_settime (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3k6kx-zOOSQ as sceKernelMlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved xQIIfJ860sk as sceKernelMunlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved HoLVWNanBBc as getpid (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved G-MYv5erXaU as sceKernelGetAppInfo (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 1yca4VvfcNA as sceKernelTitleWorkaroundIsEnabled (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3k6kx-zOOSQ as sceKernelMlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved xQIIfJ860sk as sceKernelMunlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 2zKnvQlTfsw as autofit_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Fs3ejLCo4zc as t1_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved c8aRMVPxLyc as t1cid_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved rONISOlHgZI as pfr_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved lheZj-eGtIc as t42_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 5IJlKspehi8 as winfnt_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved XQbd3lyks0c as pcf_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved UUikhajvVqo as psaux_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved BRAPUfVBWfk as pshinter_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ocFN4P1KsWQ as ft_raster1_renderer_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved mKA4m9Tc6-4 as bdf_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved ocFN4P1KsWQ as ft_raster1_renderer_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved rONISOlHgZI as pfr_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 2zKnvQlTfsw as autofit_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Fs3ejLCo4zc as t1_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved c8aRMVPxLyc as t1cid_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved lheZj-eGtIc as t42_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 5IJlKspehi8 as winfnt_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved XQbd3lyks0c as pcf_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved UUikhajvVqo as psaux_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved BRAPUfVBWfk as pshinter_module_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved mKA4m9Tc6-4 as bdf_driver_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved t7sxUY1f9+E as ft_raster5_renderer_class (lib: libSceFreeType, mod: libSceFreeType)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3k6kx-zOOSQ as sceKernelMlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved xQIIfJ860sk as sceKernelMunlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved djxxOmW6-aw as __progname (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kbw4UHHSYy0 as __pthread_cxa_finalize (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved VADc3MNQ3cM as signal (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved -YTW+qXc3CQ as sceKernelInternalMemoryGetModuleSegmentInfo (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved 3k6kx-zOOSQ as sceKernelMlock (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Wl2o5hOVZdw as sceKernelPrintBacktraceWithModuleInfo (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved hHlZQUnlxSM as getrusage (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved Fjc4-n1+y2g as __elf_phdr_match_addr (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved kbw4UHHSYy0 as __pthread_cxa_finalize (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved crb5j7mkk1c as _is_signal_return (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved mo0bFmWppIw as sigreturn (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved aPcyptbOiZs as sigprocmask (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved VkTAsrZDcJ0 as sigfillset (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved tZY4+SZNFhA as msync (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved WlyEA-sLDf0 as sceKernelTruncate (lib: libkernel, mod: libkernel)
+[Core.Linker] <Error> linker.cpp:340 Resolve: Linker: Stub resolved rcrVFJsQWRY as scePthreadGetaffinity (lib: libkernel, mod: libkernel)
+[Kernel.Vmm] <Info> memory.cpp:66 SetupMemoryRegions: Configured memory regions: flexible size = 0x1c000000, direct size = 0x120000000
+[Kernel.Vmm] <Info> memory.cpp:230 operator(): in_addr = 0x880000000, out_addr = 0x880000000, len = 0x1000000, prot = 0x3, flags = 0x0
+[Kernel.Vmm] <Info> memory.cpp:230 operator(): in_addr = 0x881000000, out_addr = 0x881000000, len = 0x4000, prot = 0x3, flags = 0x0
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceNgs2.sprx
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceUlt.sprx
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = libult eventflag attr = 0x21 initPattern = 0x0
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceJson.sprx
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceJson2.sprx
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceLibcInternal.sprx
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /dev/console flags = 0x1 mode = 0
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: getpid (nid: HoLVWNanBBc) called, returning zero to 0x80ab0c99e
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelGetProcessType (nid: +g+UP8Pyfmo) called, returning zero to 0x80ab0c9a5
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /dev/deci_tty6 flags = 0x1 mode = 0
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceRtc.sprx
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceCesCs.sprx
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceFont.sprx
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80c50042d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: getpid (nid: HoLVWNanBBc) called, returning zero to 0x80c500543
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelGetAppInfo (nid: G-MYv5erXaU) called, returning zero to 0x80c50054d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelTitleWorkaroundIsEnabled (nid: 1yca4VvfcNA) called, returning zero to 0x80c5005b0
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceFontFt.sprx
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80cd504cd
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceFreeTypeOt.sprx
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core] <Error> stubs.cpp:42 CommonStub: Stub: sceKernelMlock (nid: 3k6kx-zOOSQ) called, returning zero to 0x80d57439d
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libc.prx
+[Kernel.Vmm] <Info> memory.cpp:70 sceKernelAllocateDirectMemory: searchStart = 0x0, searchEnd = 0x120000000, len = 0x48000000, alignment = 0x10000, memoryType = 0x0, physAddrOut = 0x0
+[Kernel.Vmm] <Info> memory.cpp:201 sceKernelMapDirectMemory: called, redirected to sceKernelMapNamedDirectMemory
+[Kernel.Vmm] <Info> memory.cpp:169 sceKernelMapNamedDirectMemory: in_addr = 0x0, len = 0x48000000, prot = 0x3, flags = 0x0, directMemoryStart = 0x0, alignment = 0x10000, name = ''
+[Kernel.Vmm] <Info> memory.cpp:195 sceKernelMapNamedDirectMemory: out_addr = 0x143870000
+[Core.Linker] <Info> module.cpp:98 Start: Module started : libSceFios2.prx
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/playgo.pgm flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/playgo.pgm
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_PLAYGO
+[Lib.PlayGo] <Info> playgo.cpp:240 scePlayGoInitialize: called, bufSize = 2097152
+[Lib.PlayGo] <Info> playgo.cpp:269 scePlayGoOpen: called
+[Lib.PlayGo] <Info> playgo.cpp:346 scePlayGoSetLanguageMask: called
+[Lib.PlayGo] <Info> playgo.cpp:361 scePlayGoSetToDoList: called
+[Lib.PlayGo] <Info> playgo.cpp:213 scePlayGoGetToDoList: called handle = 1 numberOfEntries = 53
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 0, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 1, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 2, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 3, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 4, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 5, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 6, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 7, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 8, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 9, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 10, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 11, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 12, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 13, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 14, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 15, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 16, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 17, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 18, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 19, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 20, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 21, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 22, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 23, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 24, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 25, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 26, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 27, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 28, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 29, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 30, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 31, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 32, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 33, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 34, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 35, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 36, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 37, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 38, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 39, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 40, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 41, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 42, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 43, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 44, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 45, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 46, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 47, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 48, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 49, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 50, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 51, numberOfEntries = 1
+[Lib.PlayGo] <Info> playgo.cpp:174 scePlayGoGetProgress: called handle = 1, chunkIds = 52, numberOfEntries = 1
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_MESSAGE_DIALOG
+[Tty] <Info> logger.cpp:62 log_flush: [stdout] FIOS2: built with SDK version 0x04008061
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_DISC_MAP
+[Lib.NpManager] <Error> np_manager.cpp:1997 sceNpSetNpTitleId: (STUBBED) called
+[Lib.SystemService] <Error> systemservice.cpp:1932 sceSystemServiceParamGetString: (STUBBED) called
+[Lib.UserService] <Warning> userservice.cpp:1126 sceUserServiceInitialize: (dummy) called
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_MESSAGE_DIALOG
+[Lib.NetCtl] <Error> netctl.cpp:198 sceNetCtlGetInfo: 12 unsupported code
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/delete_me.snt flags = 0x601 mode = 438
+[Kernel.Fs] <Error> file_system.cpp:239 sceKernelOpen: error = 30
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/delete_me.snt flags = 0x601 mode = 438
+[Kernel.Fs] <Error> file_system.cpp:239 sceKernelOpen: error = 30
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_SAVE_DATA_DIALOG
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/ui/vshell/save_icon.png flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/ui/vshell/save_icon.png
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/ui/vshell/save_icon.png
+[Kernel.Vmm] <Info> memory.cpp:70 sceKernelAllocateDirectMemory: searchStart = 0x0, searchEnd = 0x120000000, len = 0x20000000, alignment = 0x10000, memoryType = 0x0, physAddrOut = 0x48000000
+[Kernel.Vmm] <Info> memory.cpp:201 sceKernelMapDirectMemory: called, redirected to sceKernelMapNamedDirectMemory
+[Kernel.Vmm] <Info> memory.cpp:169 sceKernelMapNamedDirectMemory: in_addr = 0x0, len = 0x20000000, prot = 0x33, flags = 0x0, directMemoryStart = 0x48000000, alignment = 0x10000, name = ''
+[Kernel.Vmm] <Info> memory.cpp:195 sceKernelMapNamedDirectMemory: out_addr = 0x18b870000
+[Kernel.Vmm] <Info> memory.cpp:70 sceKernelAllocateDirectMemory: searchStart = 0x0, searchEnd = 0x120000000, len = 0xb7ff0000, alignment = 0x10000, memoryType = 0x3, physAddrOut = 0x68000000
+[Kernel.Vmm] <Info> memory.cpp:201 sceKernelMapDirectMemory: called, redirected to sceKernelMapNamedDirectMemory
+[Kernel.Vmm] <Info> memory.cpp:169 sceKernelMapNamedDirectMemory: in_addr = 0x0, len = 0xb7ff0000, prot = 0x33, flags = 0x0, directMemoryStart = 0x68000000, alignment = 0x10000, name = ''
+[Kernel.Vmm] <Info> memory.cpp:195 sceKernelMapNamedDirectMemory: out_addr = 0x1ab870000
+[Lib.VideoOut] <Info> video_out.cpp:291 sceVideoOutOpen: called
+[Lib.VideoOut] <Info> video_out.cpp:29 sceVideoOutSetBufferAttribute: pixelFormat = A8R8G8B8Srgb, tilingMode = 0, aspectRatio = 0, width = 1920, height = 1080, pitchInPixel = 1920
+[Lib.VideoOut] <Info> driver.cpp:123 RegisterBuffers: startIndex = 0, bufferNum = 2, pixelFormat = A8R8G8B8Srgb, aspectRatio = 0, tilingMode = 0, width = 1920, height = 1080, pitchInPixel = 1920, option = 0x8
+[Lib.VideoOut] <Info> driver.cpp:142 RegisterBuffers: buffers[0] = 0x1afdd8000
+[Lib.VideoOut] <Info> driver.cpp:142 RegisterBuffers: buffers[1] = 0x1b05d0000
+[Lib.VideoOut] <Info> driver.cpp:123 RegisterBuffers: startIndex = 2, bufferNum = 2, pixelFormat = A8R8G8B8Srgb, aspectRatio = 0, tilingMode = 0, width = 1920, height = 1080, pitchInPixel = 1920, option = 0x8
+[Lib.VideoOut] <Info> driver.cpp:142 RegisterBuffers: buffers[2] = 0x1afdd8000
+[Lib.VideoOut] <Info> driver.cpp:142 RegisterBuffers: buffers[3] = 0x1b05d0000
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_NP_TROPHY
+[Lib.NpTrophy] <Info> np_trophy.cpp:183 sceNpTrophyCreateHandle: New handle = 0
+[Lib.NpTrophy] <Info> np_trophy.cpp:169 sceNpTrophyCreateContext: New context = 0, user_id = 1 service label = 0
+[Kernel.Event] <Info> equeue.cpp:186 sceKernelCreateEqueue: name = trophyEqueue
+[Lib.GnmDriver] <Info> gnmdriver.cpp:1159 sceGnmMapComputeQueue: ASC pipe 0 queue 0 mapped to vqueue 1
+[Lib.NpTrophy] <Error> np_trophy.cpp:615 sceNpTrophyRegisterContext: (STUBBED) called
+[Lib.NpTrophy] <Info> np_trophy.cpp:501 sceNpTrophyGetTrophyUnlockState: called
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/all_shaders.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/all_shaders.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/all_shaders.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_audio.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_audio_p.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/lang_english_text.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_text.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/lang_english_text.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/lang_english_text_p.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_text_p.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/lang_english_text_p.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/lang_english_audio.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_audio.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/lang_english_audio.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/lang_english_audio_p.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/lang_english_audio_p.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/lang_english_audio_p.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/pulse.sprig.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/pulse.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/pulse.sprig.xpps
+[Lib.Pad] <Error> pad.cpp:208 scePadInit: (STUBBED) called
+[Lib.Net] <Error> net.cpp:1007 sceNetInit: (DUMMY) called
+[Lib.NetCtl] <Error> netctl.cpp:299 sceNetCtlInit: (STUBBED) called
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Lib.AudioOut] <Info> audioout.cpp:314 sceAudioOutOpen: id = 255 port_type = Main index = 0 length = 1024 sample_rate = 48000 param_type = Float_8CH_Std attr = None
+[Lib.AudioOut] <Info> sdl_audio.cpp:103 CalculateQueueThreshold: SDL audio buffers: guest = 32768 bytes, host = 15360 bytes, threshold = 131072 bytes
+[Lib.Ajm] <Info> ajm.cpp:137 sceAjmInitialize: called reserved = 0
+[Lib.Ajm] <Info> ajm.cpp:199 sceAjmModuleRegister: called context = 1, codec_type = 1
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AudioThread attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_VIDEODEC
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_ERROR_DIALOG
+[Lib.Net] <Error> net.cpp:1087 sceNetPoolCreate: (DUMMY) name = HttpMgr Net Pool size = 16384 flags = 0 
+[Lib.Ssl] <Error> ssl.cpp:697 sceSslInit: (DUMMY) called poolSize = 262144
+[Lib.Http] <Error> http.cpp:264 sceHttpInit: (DUMMY) called libnetMemId = 0 libsslCtxId = 1 poolSize = 262144
+[Lib.Http] <Error> http.cpp:118 sceHttpCreateTemplate: (STUBBED) called
+[Lib.Http] <Error> http.cpp:351 sceHttpSetConnectTimeOut: (STUBBED) called
+[Lib.Http] <Error> http.cpp:446 sceHttpSetRecvTimeOut: (STUBBED) called
+[Lib.Http] <Error> http.cpp:481 sceHttpSetSendTimeOut: (STUBBED) called
+[Lib.Http] <Error> http.cpp:506 sceHttpsLoadCert: (STUBBED) called
+[Lib.NpManager] <Error> np_manager.cpp:1982 sceNpSetContentRestriction: (STUBBED) called
+[Lib.NpManager] <Error> np_manager.cpp:1962 sceNpRegisterStateCallbackA: (STUBBED) called
+[Lib.NpManager] <Error> np_manager.cpp:1942 sceNpRegisterGamePresenceCallbackA: (STUBBED) called
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_APP_CONTENT
+[Lib.AppContent] <Error> app_content.cpp:244 sceAppContentInitialize: (DUMMY) called
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_NP_SCORE_RANKING
+[Lib.SysModule] <Error> sysmodule.cpp:88 sceSysmoduleLoadModule: (DUMMY) called module = ORBIS_SYSMODULE_NP_TUS
+[Lib.AppContent] <Info> app_content.cpp:164 sceAppContentGetAddcontInfo: called
+[Lib.AppContent] <Info> app_content.cpp:164 sceAppContentGetAddcontInfo: called
+[Lib.NpWebApi] <Error> np_web_api.cpp:182 sceNpWebApiInitialize: (DUMMY) called
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/music_a.psarc flags = 0x0 mode = 0
+[Lib.Pad] <Info> pad.cpp:263 scePadOpen: (DUMMY) called user_id = 1 type = 0 index = 0
+[Lib.Pad] <Info> pad.cpp:418 scePadResetLightBar: (DUMMY) called
+[Lib.AudioOut] <Info> audioout.cpp:314 sceAudioOutOpen: id = 1 port_type = Padspk index = 0 length = 1024 sample_rate = 48000 param_type = FloatMono attr = None
+[Lib.AudioOut] <Info> sdl_audio.cpp:103 CalculateQueueThreshold: SDL audio buffers: guest = 4096 bytes, host = 1920 bytes, threshold = 16384 bytes
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xbb06bcb3 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/music_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/music_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/music_a.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/music_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 5
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/music_b.psarc flags = 0x0 mode = 0
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xe210908 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x529286b5 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xeac4ed47 
+[Render.Vulkan] <Warning> sampler.cpp:14 Sampler: Texture requires gamma correction
+[Lib.AppContent] <Info> app_content.cpp:164 sceAppContentGetAddcontInfo: called
+[Lib.AppContent] <Info> app_content.cpp:164 sceAppContentGetAddcontInfo: called
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/music_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/music_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/music_b.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/music_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 6
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_a.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/english_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_a.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_a.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 7
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_b.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/english_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_b.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_b.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 8
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_a_p.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_a_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/english_a_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_a_p.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_a_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 9
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_b_p.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_b_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/psarc/english_b_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/psarc/english_b_p.psarc flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/psarc/english_b_p.psarc
+[Kernel.Fs] <Info> file_system.cpp:629 fstat: (PARTIAL) fd = 10
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/init_sound.sprig.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/init_sound.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/init_sound.sprig.xpps
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/common_sound.sprig.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/common_sound.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/common_sound.sprig.xpps
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Event] <Info> event_flag.cpp:186 sceKernelCreateEventFlag: called name = AkEvent attr = 0x20 initPattern = 0x0
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/movies/cutscene/splash_europe.bsf flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/movies/cutscene/splash_europe.bsf
+[Lib.Videodec] <Info> videodec.cpp:92 sceVideodecQueryResourceInfo: called
+[Lib.Videodec] <Info> videodec.cpp:17 sceVideodecCreateDecoder: called
+[Lib.Videodec] <Info> videodec.cpp:116 sceVideodecReset: (STUBBED) called
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x3c0d3fe8 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Lib.SystemService] <Info> systemservice.cpp:1799 sceSystemServiceHideSplashScreen: called
+[Lib.Videodec] <Info> videodec.cpp:68 sceVideodecFlush: called
+[Lib.Videodec] <Info> videodec.cpp:55 sceVideodecDeleteDecoder: (STUBBED) called
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/load_menu_catalog.log
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/load_menu_catalog.log flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/load_menu_catalog.log
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/load_menu_catalog.log
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/world_title.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_seaport.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/world_seaport.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_sr.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/snow_run.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_seaport.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/world_hallucination.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_seaport.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/ctr.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_seaport.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/combat_test_world_01.xpps
+[Kernel.Fs] <Error> file_system.cpp:607 sceKernelStat: error = 2
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/x_parkour_test.xpps
+[Kernel.Fs] <Error> file_system.cpp:607 sceKernelStat: error = 2
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/ctw1.sprig.xpps
+[Kernel.Fs] <Error> file_system.cpp:607 sceKernelStat: error = 2
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/i3_dlc.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/movies/cutscene/splash_europe.bsf
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/i3_dlc.sprig.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/i3_dlc.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/i3_dlc.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/core_common.sprig.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/core_common.sprig.xpps
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0xacc84892 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0x9c61aa85 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0xa16fa93a 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xfa2ea78e 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xfd2a358b 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xfa2ea78e (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xfa2ea78e (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xdd74b82b 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xe7376f3c 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xa43fe5bd 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x3f94c5dc 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x4b2aa69c 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xb27f3103 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0xa2fcc356 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xc0edcaf3 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x1bb30935 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x204f45fe 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xbb06bcb3 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xdac9874d 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xd5da1f3b 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xd08aae1 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x2bb2320e 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x87ad72dc 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x102f9b6b 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x6d29fb0f 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xf836f715 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xeadaa935 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x4ab7830a 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0xa8b68717 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x46335d73 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xeac4ed47 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xabc3c768 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb9758f18 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x961c93ba 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x309ba975 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x947b9a11 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xbc467d9c 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xbb06bcb3 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xbb06bcb3 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xe4aaf20e 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x332f3508 
+[Render.Vulkan] <Warning> sampler.cpp:14 Sampler: Texture requires gamma correction
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xa6d23116 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Warning> sampler.cpp:14 Sampler: Texture requires gamma correction
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x2684498d 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x32413a0c 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x7569e7b0 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xb94242a8 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x9c75f6a3 
+[Render.Vulkan] <Warning> sampler.cpp:14 Sampler: Texture requires gamma correction
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/core_common.sprig.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/world_title.xpps flags = 0x0 mode = 0
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/world_title.xpps
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xbb06bcb3 (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0xe4aaf20e (permutation)
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0x332f3508 (permutation)
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/world_title.xpps
+[Kernel.Fs] <Info> file_system.cpp:62 open: path = /app0/art/cache/heroine.xpps flags = 0x0 mode = 0
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0xe2569330 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0x1b099ef1 
+[Kernel.Fs] <Info> file_system.cpp:577 posix_stat: (PARTIAL) path = /app0/art/cache/heroine.xpps
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0x1324918e 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling cs shader 0x7cdef4f7 
+[Kernel.Fs] <Info> file_system.cpp:260 close: Closing /app0/art/cache/heroine.xpps
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling fs shader 0x26bd42b9 
+[Render.Vulkan] <Info> vk_pipeline_cache.cpp:492 CompileModule: Compiling vs shader 0xc9640a36 
+[Debug] <Critical> liverpool_to_vk.h:109 PromoteFormatToDepth: Unreachable code!
+Unexpected depth format R8G8B8A8Unorm
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (153600 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (131072 queued, 131072 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_audio.cpp:64 Output: SDL audio queue backed up (16384 queued, 16384 threshold), clearing.
+[Lib.AudioOut] <Warning> sdl_aud
